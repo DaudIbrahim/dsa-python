@@ -8,13 +8,18 @@
 
 - [from Pipenv to pip-tools](https://news.ycombinator.com/item?id=21782988)
 
-
-# Python Cheatsheet Reference
+## Python Cheatsheet Reference
 
 - [My cheat sheet Python vs Javascript](https://www.hleroy.com/2022/10/my-cheat-sheet-python-vs-javascript/)
 
 - [A Cheat Sheet 📜 to revise Python syntax. Particularly useful for solving Data Structure and Algorithmic problems with Python.](https://github.com/AbdulMalikDev/PythonCheatSheet)
 
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+
+## Conventions
+
+[Python Naming Convention](https://github.com/naming-convention/naming-convention-guides/blob/master/python/README.md)
+
+<!--  -->
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
