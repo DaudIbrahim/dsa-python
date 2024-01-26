@@ -15,8 +15,10 @@ There are two main scenarios where the Two Pointers pattern is often applied:
 Common use cases for the Two Pointers pattern include:
 
 - **Searching for a pair:** When you need to find two elements in an array that meet certain conditions.
-  
+
 - **Searching for a subarray or range:** When you need to find a subarray or range of elements that satisfies specific criteria.
+
+  - Subarray - A subarray refers to a contiguous sequence of elements within an array. In simpler terms, it's a portion of an array where the elements are taken continuously in their original order. The subarray is defined by specifying the starting and ending indices within the array.
 
 - **Checking for a palindrome:** When you need to determine whether a sequence (e.g., string or array) is a palindrome.
 
