@@ -4,3 +4,5 @@ Focus on the following three, dive deep
 1. Two Pointers
 2. Fast and Slow Pointers
 3. Sliding Window
+
+https://medium.com/dare-to-be-better/5-steps-of-problem-solving-approach-d891d6c1ae10
