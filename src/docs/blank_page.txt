@@ -2,5 +2,16 @@
 Focus on the following three, dive deep
 
 1. Two Pointers
+    - List Interview Questions
+    - PROJECT 1 - Arrays/Lists
+    - Array/List - CODING EXERCISES
+    - Dictionaries
+    - Dictionary CODING EXERCISES
+    - Two Sum
+        - Implement two pointer solution
+        - Implement dictionary solution
+
 2. Fast and Slow Pointers
 3. Sliding Window
+4. Merge Intervals
+5. In-Place Reversal of Linked List

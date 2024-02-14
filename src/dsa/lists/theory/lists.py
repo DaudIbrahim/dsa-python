@@ -1,3 +1,4 @@
+# flake8: noqa
 """
     Python List (Built in Data Structure)
 
@@ -13,8 +14,8 @@
 """
 
 # Access/Traversing the list
-my_list = ['Orange', 'Cheese', 'Butter']
-print('Orange' in my_list, 'Milk' in my_list)
+my_list = ["Orange", "Cheese", "Butter"]
+print("Orange" in my_list, "Milk" in my_list)
 
 for i in my_list:
     print(i)
@@ -27,12 +28,12 @@ integer_list = [1, 2, 3, 4, 5, 6, 7]
 integer_list[2] = integer_list[2] * 10
 integer_list.insert(2, 15)
 integer_list.append(100)
-integer_list.extend(['A', 'B'])
+integer_list.extend(["A", "B"])
 
 # Slice/Delete from a List
 
 # https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples#getting-sublists-with-slices
-print('Slice', integer_list[0:4])
+print("Slice", integer_list[0:4])
 
 
 # https://www.pythoncheatsheet.org/cheatsheet/lists-and-tuples#removing-values
@@ -54,7 +55,7 @@ else:
 def linear_search(p_list, p_target):
     # Linear Search
     for index, value in enumerate(p_list):
-        if (value == p_target):
+        if value == p_target:
             return index
 
     return -1
@@ -83,16 +84,16 @@ a = a * 4
 # length
 len_of_a_list = len(integer_list[0:4])
 
-max_integer = (max(integer_list[0:3]))
-min_integer = (min(integer_list[0:3]))
-sum_integer = (sum(integer_list[0:3]))
+max_integer = max(integer_list[0:3])
+min_integer = min(integer_list[0:3])
+sum_integer = sum(integer_list[0:3])
 
 # Strings and Lists
-my_string = 'HelloWorld'
+my_string = "HelloWorld"
 string_to_list = list(my_string)
 string_split = my_string.split()
-string_split_delimeter = 'New-York-City'.split('-')
-string_join = ','.join(my_string)
+string_split_delimeter = "New-York-City".split("-")
+string_join = ",".join(my_string)
 
 # Common List pitfalls and ways to avoid them
 # Be wary of working on making changes on reference vs value

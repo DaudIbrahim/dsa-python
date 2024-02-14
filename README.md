@@ -16,6 +16,12 @@
 
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 
+## Scrum
+
+Scrum: `Flexible, iterative development with continuous feedback and collaboration.`
+
+Scrum offers a flexible and adaptive methodology that focuses on iterative development, continuous feedback, and collaboration among team members and stakeholders.
+
 ## Conventions
 
 [Python Naming Convention](https://github.com/naming-convention/naming-convention-guides/blob/master/python/README.md)

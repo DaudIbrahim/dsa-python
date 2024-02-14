@@ -50,7 +50,15 @@ for item in my_list:
     print(item)
 ```
 
-In this example, the `for` loop iterates over each element in `my_list` and prints it.
+The `for` loop in `enumerate`:
+
+```python
+list = ["A", "B", "C"]
+
+for index, item in enumerate(list):
+    print(index, item)
+
+```
 
 ### 3.2 While Loop
 

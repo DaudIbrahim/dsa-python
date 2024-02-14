@@ -15,6 +15,12 @@ Tracking checkboxes can be used by forking this repository and marking an X insi
 
 - [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
+- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
+
+<!-- two sum II -->
+
+<!-- https://youtu.be/jzZsG8n2R9A?t=5 -->
+
 - [ ] [Sum of Three Values](https://leetcode.com/problems/3sum-closest/)
 
 - [ ] [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)

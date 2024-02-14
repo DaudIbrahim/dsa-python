@@ -38,6 +38,7 @@ Spend [60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77) of focus time on solving 
 
     1. Spend the rest of you time learning the solution
     2. Re-Implement the Solution from scratch by yourself **Do It!**
+    3. Consider checking the solution after an hour of effort on a problem is a reasonable approach. The key is not just in peeking but in thoroughly understanding the solution, learning the underlying concepts, and challenging yourself to reimplement it from scratch. The goal is not only to solve the problem but to deepen your understanding and enhance your problem-solving skills. *31-Jan-24*
 
 ```js
 // 12-Nov-23 2:54:56 AM
@@ -686,6 +687,8 @@ Hepls in solving *Hint* **Contiguous**
 In many problems dealing with an array (or a LinkedList), we are asked to find or calculate something among all the contiguous subarrays (or sublists) of a given size.
 
 ## Misc
+
+- <https://medium.com/dare-to-be-better/5-steps-of-problem-solving-approach-d891d6c1ae10>
 
 ### Keywords
 
