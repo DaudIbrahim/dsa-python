@@ -8,9 +8,9 @@
     D - Delete
 
     A - Accessing/Traversing a list
+    S - Searching for an element in a List
     I - Update/Insert a List
     D - Slice/Delete from a List
-    S - Searching for an element in a List
 """
 
 # Access/Traversing the list
@@ -117,3 +117,62 @@ numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 odd_numbers = [expression for expression in numbers if expression % 2 != 0]
 even_multiplied = [(num * 2) for num in numbers if num % 2 == 0]
 print(even_multiplied)
+
+"""
+    my_list Py
+"""
+
+my_list = [10, 20, 30, 40, 50]
+print("\nmy_list", my_list)
+
+# traversal | Accessing/Traversing a list
+for item in my_list:
+    print(item)
+
+for i in range(len(my_list)):
+    print(my_list[i])
+
+for index, item in enumerate(my_list):
+    print(index, item)
+
+i = 0
+
+while i < len(my_list):
+    print(i, my_list[i])
+    i += 1
+
+# insert/update |  { pop, remove } { append, insert }
+my_list[0] = my_list[0] * my_list[0]
+my_list.append(60)
+my_list.pop(0)
+my_list.insert(0, 10)
+my_list.pop(len(my_list) - 1)
+print(my_list)
+print("\n")
+
+# slicing | start:end
+print(my_list[:])
+print(my_list[0:2])
+print("\n")
+
+# stepper | start:end:stepper
+print("stepper", my_list[3:0:-1])
+print(my_list[::2])
+print(my_list[1::3])
+print("\n")
+
+# positive/negative indices
+print(my_list[:1] + my_list[-1:])
+print("\n")
+
+# list Comprehensions
+number_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_list = [(item) for item in number_list if (item % 2 == 0)]
+odd_list = [(item) for item in number_list if (item % 2 != 0)]
+
+print(even_list, odd_list)
+
+# End. Clear on Python Lists - synatx, looping, ASID, slicling & omprehension
+## ACID stands for Atomicity, Consistency, Isolation, and Durability.
+## Mmmory hook for me reagarding Data Structures
+#   - ASID: Access, Search, Insert and Delete

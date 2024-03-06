@@ -50,12 +50,20 @@ for item in my_list:
     print(item)
 ```
 
-The `for` loop in `enumerate`:
+`for` loop using `range`:
+
+```python
+for i in range(5):
+    print(i)
+```
+
+`for` loop using `enumerate`:
 
 ```python
 list = ["A", "B", "C"]
 
-for index, item in enumerate(list):
+# The enumerate() function in Python accepts an optional second argument, which sets the starting value for the index. In your code, the second argument is 10, so indexing begins from 10. Consequently, the first element in the list receives an index of 10, the second element an index of 11, and so forth
+for index, item in enumerate(list, start = 10):
     print(index, item)
 
 ```

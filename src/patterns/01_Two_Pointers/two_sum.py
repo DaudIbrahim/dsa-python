@@ -18,15 +18,14 @@ class Solution:
         return []
 
     def naive_two_sum_for(self, nums: List[int], target: int) -> List[int]:
-        result = []
+        for i_idx, i_item in enumerate(nums):
+            start_idx = i_idx + 1
 
-        for i, element_inner in enumerate(nums):
-            sliceIdx = i + 1
-            for j, element_outer in enumerate(nums[sliceIdx:], start=i + 1):
-                if element_inner + element_outer == target:
-                    result.append(i)
-                    result.append(j)
-                    return result
+            for j_idx, j_item in enumerate(nums[start_idx:], start=start_idx):
+                if (i_item + j_item) == target:
+                    print(i_item, j_item)
+                    return [i_idx, j_idx]
+
         return []
 
 

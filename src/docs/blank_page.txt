@@ -1,8 +1,9 @@
+Python 🐍
 
 Focus on the following three, dive deep
 
 1. Two Pointers
-    - List Interview Questions
+    - List Interview Questions ✔
     - PROJECT 1 - Arrays/Lists
     - Array/List - CODING EXERCISES
     - Dictionaries

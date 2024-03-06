@@ -1,4 +1,3 @@
-
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -26,13 +25,8 @@ var twoSum = function (nums, target) {
 
     }
 
-
     return result
 };
 
-
-
 const result = twoSum([2, 7, 11, 15], 9)
 console.log(result)
-
-

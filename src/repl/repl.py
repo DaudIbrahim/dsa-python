@@ -1,8 +1,11 @@
-my_list = ["A", "B", "C"]
+while True:
+    try:
+        input = int(input("How many numbers do you want to add (1-10): "))
+        if 1 <= input <= 10:
+            break
+        else:
+            print("Number must be between 1 and 10.")
+    except Exception:
+        print("Input must be a valid integer.")
 
-for i in enumerate(my_list):
-    print(i)
-
-# Enumerate from index 2 to index 3 (exclusive)
-for index, item in enumerate(my_list[1:3], start=1):
-    print(index, item)
+print(input)

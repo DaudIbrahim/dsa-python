@@ -1,3 +1,4 @@
+# flake8: noqa
 # https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
 # Python does not have traditional C-style for loops.
 # We do have something that we call a for loop in Python, but it works like a foreach loop.
@@ -23,13 +24,13 @@ for n in numbers:
     print(n * 10)
 
 index = 0
-while (index < len(numbers)):
-    print(f'Value at Index {index} is {numbers[index]}')
+while index < len(numbers):
+    print(f"Value at Index {index} is {numbers[index]}")
     index += 1
 
 # Non-Sequences are another type of iterable. (Sets, dictionaries, files, and generator)
 # Non-sequences don't support indexing. (Hint: Iterators)
-fruits = {'apples': 2, 'oranges': 1}
+fruits = {"apples": 2, "oranges": 1}
 for fru in fruits:
     print(fru, fruits[fru])
 
