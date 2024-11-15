@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "E:/python-2024/dsa-python"
+		}
+	],
+	"settings": {
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"XXX"
+		],
+		"[python]": {
+			"editor.defaultFormatter": "charliermarsh.ruff"
+		},
+		"[markdown]": {
+			"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+		},
+		"markdownlint.config": {
+			"MD046": false
+		},
+		"markdown-preview-enhanced.previewTheme": "atom-dark.css",
+		"markdown-preview-enhanced.codeBlockTheme": "one-dark.css",
+		"editor.wordWrap": "on",
+		"editor.formatOnSave": true,
+		"editor.renderWhitespace": "trailing",
+		"editor.accessibilitySupport": "off",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+		"explorer.sortOrder": "type",
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorTheme": "Default Dark+",
+	}
+}
