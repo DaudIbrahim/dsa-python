@@ -57,11 +57,10 @@ Spend [60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77) of focus time on solving 
 
 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/ 'bigocheatsheet')
 
-- (Hook ASID | DB-ACID)
-  - Access
-  - Search
-  - Insertion
-  - Deletion
+- Access
+- Search
+- Insertion
+- Deletion
 
 ## [Set Theory](https://youtu.be/5ZhNmKb-dqk?list=PLxvbXPxg6ydxE3bOWlrAaMsRiY-kVNVGS)
 
@@ -209,7 +208,7 @@ Make use of Mathematical Induction to prove that the pattern holds true for ever
 
 The most difficult part of solving problems recursively is to figure out how knowing the solution to the smaller problems of the same type as the orignal problem will give you a solution to the problem as a whole.
 
-You suppose you knwo the solutions to the smaller subproblems, the supposition that the smaller subproblems have already been solved has been called the Recursive Leap of Faith.
+You suppose you know the solutions to the smaller subproblems, the supposition that the smaller subproblems have already been solved has been called the Recursive Leap of Faith.
 
 The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by mathematical induction.
 
@@ -778,9 +777,9 @@ In many problems dealing with an array (or a LinkedList), we are asked to find o
 
 - middle-element
 
-  - [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33) 
+  - [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
 
-  ```js
+  ```ts
   /**
   - To find the mid in a list this is the approach I have decided to go with - thePrimeagen's mid method
   - ThePrimeagen's mid method, easy to remember about offsets

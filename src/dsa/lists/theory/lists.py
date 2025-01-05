@@ -172,7 +172,3 @@ odd_list = [(item) for item in number_list if (item % 2 != 0)]
 
 print(even_list, odd_list)
 
-# End. Clear on Python Lists - synatx, looping, ASID, slicling & omprehension
-## ACID stands for Atomicity, Consistency, Isolation, and Durability.
-## Mmmory hook for me reagarding Data Structures
-#   - ASID: Access, Search, Insert and Delete

@@ -26,4 +26,3 @@ for (const key in obj) {
         console.info(key, obj[key]);
     }
 }
-

@@ -7,10 +7,6 @@ TS Chicken Egg Problem & JS Function Currying
 
 https://claude.ai/chat/900cd239-1162-4c9e-91f3-25163d72d357
 
-https://chatgpt.com/c/7a2d580f-40a6-414d-84f9-dc22d9faa482
-
-https://chatgpt.com/c/33732f56-00ae-4adf-b401-a4091d270205
-
 - - -
 
 - Recursion
