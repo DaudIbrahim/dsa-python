@@ -12,10 +12,9 @@
 
 ## Python Cheatsheet Reference
 
-- [My cheat sheet Python vs Javascript](https://www.hleroy.com/2022/10/my-cheat-sheet-python-vs-javascript/)
-
-- [A Cheat Sheet 📜 to revise Python syntax. Particularly useful for solving Data Structure and Algorithmic problems with Python.](https://github.com/AbdulMalikDev/PythonCheatSheet)
-
+- [*hleroy* : cheat sheet Python vs Javascript](https://www.hleroy.com/2022/10/my-cheat-sheet-python-vs-javascript/)
+- [*neetcode*: python for Coding Interviews](https://neetcode.io/courses/lessons/python-for-coding-interviews)
+- [A Cheat Sheet useful for solving Data Structure and Algorithmic problems with Python.](https://github.com/AbdulMalikDev/PythonCheatSheet)
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 
 ## Scrum

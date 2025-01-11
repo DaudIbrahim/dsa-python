@@ -3,6 +3,7 @@
 # Linear Data Structures Operations
 
 # Lists []
+
 # Lists are mutable and ordered collections, meaning you can change the elements after creation, and the order of elements is maintained.
 # Python: Lists are ordered collections of elements that can contain items of any data type.
 # They are mutable, meaning their elements can be changed after creation.
@@ -42,6 +43,12 @@ print("Slice with a step of 2", my_list[::2])
 """
 
 # Tuples ()
+
+# Tuple: A general term for an ordered list of elements.
+# 3-tuple (triple): A tuple with exactly three elements, e.g., (a, b, c).
+# 4-tuple (quadruple): A tuple with exactly four elements, e.g., (a, b, c, d).
+# tuples are read only - ()
+
 # Tuples are immutable and ordered collections. Once created, their elements cannot be changed, added, or removed, but the order of elements is preserved.
 # Python: Tuples are immutable ordered collections of elements.
 # Once created, their elements cannot be changed.

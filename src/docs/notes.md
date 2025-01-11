@@ -39,19 +39,28 @@ Cdoe Runner
 
 2. Memorize the following 5x techniques:
 
-   - Binary Search
-   - Quick Sort
-   - Merge Sort
-   - Bucket Sort
-   - Merge Intervals (*1st* Pattern)
+   1. Binary Search (Mid Point)
+   2. Quick Sort
+   3. Merge Sort
+   4. Bucket Sort
+   5. Merge Intervals (*1st* Pattern)
 
 3. Pattern: Sliding Window (*2nd* Pattern) & Two Pointer Patterns (*3rd* Pattern) – Study key problem-solving patterns.
    - <https://youtube.com/playlist?list=PLxvbXPxg6ydxTJ99R8T-7DwPs2W1DuTVn>
 
-4. Continue Udemy Course: Linked List All – Dive deep into linked lists.
-5. Pattern: Fast and Slow Pointer, In-Place Reversal of a Linked List, Solve any Linked list – Advanced Linked list problem solving.
+4. Linked List All – Dive deep into linked lists.
+    - Pattern: Fast and Slow Pointer, In-Place Reversal of a Linked List, Solve any Linked list – Advanced Linked list problem solving.
 
-6. Stack – Learn about stacks and their applications. (x3)
-7. Queue – Explore queues and their uses. & problem solving (x3)
+5. Stack – Learn about stacks and their applications. (x3)
+6. Queue – Explore queues and their uses. & problem solving (x3)
 
-8. Recursion in Depth – Recursion Udemy, Recursion Problem solving, Recursion pattern & problem solving
+7. Recursion in Depth – Recursion Udemy, Recursion Problem solving, Recursion pattern & problem solving
+
+## Others
+
+`#▶ - Preparation`
+
+1. Solve ANY Linked List question using these 3 simple techniques...
+2. 5 Simple Steps for Solving Any Recursive Problem
+3. How to solve (almost) any binary tree coding problem
+4. 5 Simple Steps for Solving Dynamic Programming Problems

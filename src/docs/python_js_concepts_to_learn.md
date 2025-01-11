@@ -5,8 +5,10 @@
 - Iterators/Generators
 
 - Classes/Meta Classes
+  - <https://stackoverflow.com/a/6581949/7031530>
 
 - Python's Import System
+  - <https://youtu.be/QCSz0j8tGmI?list=PLxvbXPxg6ydwnnFlNgGKYevGy6hQHBQzE>
 
 ## JS
 
