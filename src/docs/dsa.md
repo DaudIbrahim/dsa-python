@@ -1,12 +1,12 @@
 # [Data Structures and Algorithms](https://youtube.com/playlist?list=PLxvbXPxg6ydxE3bOWlrAaMsRiY-kVNVGS&si=qtMPRLMM6KTnx56S)
 
-*The goal of programming is to create solutions, not to type on a keyboard. Generating a solution that is both legitimate and machine-readable, and then effectively handing that solution, the set of instructions, to the computer to process. In essence, the machine runs the computation on your given solution, and you are responsible for checking the accuracy of your solution. I could go on about this indefinitely, but you get the idea. You create the solutions, and the computer computes them. This is when proofs enter the picture to demonstrate the correctness of a particular algorithmic formula.*
+_The goal of programming is to create solutions, not to type on a keyboard. Generating a solution that is both legitimate and machine-readable, and then effectively handing that solution, the set of instructions, to the computer to process. In essence, the machine runs the computation on your given solution, and you are responsible for checking the accuracy of your solution. I could go on about this indefinitely, but you get the idea. You create the solutions, and the computer computes them. This is when proofs enter the picture to demonstrate the correctness of a particular algorithmic formula._
 
-- Adopt the mindset of *Think First; Code Second*
+- Adopt the mindset of _Think First; Code Second_
 
-- Grow a core competency in *Translating Abstraction into Concreteness*.  [It's definitely a core competency.If you can get really good at this visualizing creating your problems firston a whiteboard, and then being able to translate abstraction into concreteness.](https://frontendmasters.com/courses/algorithms/linear-search-kata-setup/?t=52)
+- Grow a core competency in _Translating Abstraction into Concreteness_. [It's definitely a core competency.If you can get really good at this visualizing creating your problems firston a whiteboard, and then being able to translate abstraction into concreteness.](https://frontendmasters.com/courses/algorithms/linear-search-kata-setup/?t=52)
 
-- Visualizing: Creating your problems first on a whiteboard, and then being able to [translate abstraction into concreteness](https://github.com/DaudIbrahim/knowledge-base-pvt/blob/main/ideas-and-knowledge-the-power-beyond-the-tool.md).
+- Visualizing: Creating your problems first on a whiteboard, and then being able to [translate abstraction into concreteness](https://github.com/DaudIbrahim/knowledge-base-pvt/blob/main/snippets/wisdom/ideas-and-knowledge-the-power-beyond-the-tool.md).
 
   - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
@@ -28,13 +28,15 @@ Problem sets are great ways to provide students with the practice necessary to g
 
 It is more important to be able to Recognize a problem, than to Memorize an algorithm that solves it. - [John Byrd](https://qr.ae/priZWZ)
 
-- *Recogize-Learn* `Problems`
-- *Identify* `Patterns`
-- *Create* `Solutions`
+- _Recogize-Learn_ `Problems`
+- _Identify_ `Patterns`
+- _Create_ `Solutions`
 
-#### [My approach to practice: problem solving](https://youtu.be/xF554Tlzo-c?t=309)
+#### My approach to practice: problem solving
 
-Spend [60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77) of focus time on solving a problem
+[Approach : problem solving](https://youtu.be/xF554Tlzo-c?t=309)
+
+Spend 45 minutes of focus time on solving a problem. [spending about 30 to 60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77)
 
 - You solved it - `Great`
 
@@ -42,7 +44,7 @@ Spend [60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77) of focus time on solving 
 
     1. Spend the rest of you time learning the solution
     2. Re-Implement the Solution from scratch by yourself **Do It!**
-    3. Consider checking the solution after an hour of effort on a problem is a reasonable approach. The key is not just in peeking but in thoroughly understanding the solution, learning the underlying concepts, and challenging yourself to reimplement it from scratch. The goal is not only to solve the problem but to deepen your understanding and enhance your problem-solving skills. *31-Jan-24*
+    3. Consider checking the solution after an hour of effort on a problem is a reasonable approach. The key is not just in peeking but in thoroughly understanding the solution, learning the underlying concepts, and challenging yourself to reimplement it from scratch. The goal is not only to solve the problem but to deepen your understanding and enhance your problem-solving skills. _31-Jan-24_
 
 ## Strcuture & Elements & Operations
 
@@ -55,7 +57,7 @@ Spend [60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77) of focus time on solving 
 
 ### Operations : Manipulating the Data (Example Elements in an Array)
 
-[Big-O Cheat Sheet](https://www.bigocheatsheet.com/ 'bigocheatsheet')
+[Big-O Cheat Sheet](https://www.bigocheatsheet.com/ "bigocheatsheet")
 
 - Access
 - Search
@@ -68,9 +70,9 @@ Cardinality of the Union and Intersection
 
 [Cardinality](https://www.cuemath.com/algebra/cardinality/) refers to the number that is obtained after counting something. Thus, the cardinality of a set is the number of elements in it. For example, the set {1, 2, 3, 4, 5} has cardinality five which is more than the cardinality of {1, 2, 3} which is three.
 
-An *identity* is an equation that is always true, no matter what values are substituted into it. Think of it as a rule or formula that holds universally. Identities are specific equations or statements that are universally true across all values of the variables involved.
+An _identity_ is an equation that is always true, no matter what values are substituted into it. Think of it as a rule or formula that holds universally. Identities are specific equations or statements that are universally true across all values of the variables involved.
 
-*Axioms* -> *Identity*
+_Axioms_ -> _Identity_
 
 Buildinog Blocks
 
@@ -81,7 +83,7 @@ Buildinog Blocks
 - Identities
 - Conjectures
 
-Set *Compliments* negation
+Set _Compliments_ negation
 
 De Morgan's Law
 
@@ -95,7 +97,7 @@ The paradox considers the set R of all sets that do not contain themselves as me
 
 2. If R does not contain itself, then it meets the criteria for membership in R, so it should be in R.
 
-*Example*: Imagine you're making a list of all the lists that don't include themselves. Let's call this list R.
+_Example_: Imagine you're making a list of all the lists that don't include themselves. Let's call this list R.
 
 Now, we ask a tricky question: Should R be on this list?
 
@@ -109,11 +111,6 @@ So we're stuck. If we put R on the list, it shouldn't be there. If we don't put 
 
 This is the paradox - no matter what we do, we end up contradicting ourselves. It's like a logical trap that shows there's a problem with how we're thinking about sets.
 
-```python
-# Python Set
-# SQL Set
-```
-
 ## Recursion
 
 ### Refer to the three key ideas that you have worked on before
@@ -124,25 +121,26 @@ This is the paradox - no matter what we do, we end up contradicting ourselves. I
 
 ### Recursion Concepts
 
-1. *Case*
-    - Base Case
-    - Inductive Case
+1. _Case_
 
-2. *Function Properties. Every function has the following:*
+   - Base Case
+   - Inductive Case
 
-    - Return Address - rA
-    - Return Value- rV
-    - Argument - A
+2. _Function Properties. Every function has the following:_
 
-    **Functions return: Sometimes you overlook this, in recursion we call functions recursively. Keep in mind the fact that a function always returns, regardless of whether it returns a void or a value. In a recursive manner you build up the stack with function call - you hit a base and the functions start to return, effectively emptying the call stack by popping of each function.**
+   - Return Address - rA
+   - Return Value- rV
+   - Argument - A
 
-3. *Recursion: Actions*
+   **Functions return: Sometimes you overlook this, in recursion we call functions recursively. Keep in mind the fact that a function always returns, regardless of whether it returns a void or a value. In a recursive manner you build up the stack with function call - you hit a base and the functions start to return, effectively emptying the call stack by popping of each function.**
 
-    - Pre - performing some Action before recursion
-    - Recursion - the recursion call
-    - Post - performing some Action after the recursion call
+3. _Recursion: Actions_
 
-  Similar example you can think of traversing a tree by Pre-Order, In-Order, Post-Order
+   - Pre - performing some Action before recursion
+   - Recursion - the recursion call
+   - Post - performing some Action after the recursion call
+
+Similar example you can think of traversing a tree by Pre-Order, In-Order, Post-Order
 
 ```js
 // You're gonna really want to understand this. Is that recursion can actually be broken down or the recurse can actually be broke down into three steps, all right? So the recurse thing can be into three steps. You have a pre, which means you can do something before you recurse.
@@ -250,7 +248,7 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
 
 - Correctedness of the Explicit Formula proven by Mathematical Induction
 
-    You use mathematical induction to check the correctness of your formula
+  You use mathematical induction to check the correctness of your formula
 
 #### Reference
 
@@ -260,16 +258,18 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
 
 ## Big O Notation
 
- **Big O Notation** - [Big O tells you how it an algorithm scales with respect to its input size](https://www.youtube.com/watch?v=7VHG6Y2QmtM&lc=UgwAxy3T3INAexROKJR4AaABAg)
+**Big O Notation** - [Big O tells you how it an algorithm scales with respect to its input size](https://www.youtube.com/watch?v=7VHG6Y2QmtM&lc=UgwAxy3T3INAexROKJR4AaABAg)
 
 [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 - [Important concepts](https://theprimeagen.github.io/fem-algos/lessons/algorithms-and-time-space-complexity/time-and-space-complexity)
+
   - Growth is with respect to the input
   - Constants are dropped
   - Worst case is usually the way we measure
 
 - Cases
+
   - Best Case - Big Omega
   - Average Case - Big Theta
   - Worst Case - Big O
@@ -338,7 +338,7 @@ Main Linear Data Structures:
 
 - [Python List VS Array VS Tuple](https://www.geeksforgeeks.org/python-list-vs-array-vs-tuple/)
 
-Low level Array access = (a + width * offset)
+Low level Array access = (a + width \* offset)
 
 ## Python Lists
 
@@ -392,11 +392,11 @@ This type of linked list combines the features of a doubly linked list and a cir
 
 ## Stack
 
-- *Stack - DFS - LIFO - ⬇*
+- _Stack - DFS - LIFO - ⬇_
 
 ## Queue
 
-- *Queue - BFS - FIFO - ➡*
+- _Queue - BFS - FIFO - ➡_
 
 ## Map/Dictionary
 
@@ -404,7 +404,11 @@ This type of linked list combines the features of a doubly linked list and a cir
 
 ## Search
 
-### [Binary Search](https://www.youtube.com/watch?v=KXJSjte_OAI&pp=ygUMYmlucmF5cyBlYXJj) *Paradigm of Divide and Conquer*
+### Binary Search
+
+_Paradigm of Divide and Conquer_
+
+- [How Binary Search Makes Computers Much, Much Faster](https://www.youtube.com/watch?v=KXJSjte_OAI&pp=ygUMYmlucmF5cyBlYXJj)
 
 - [ThePrimeagen Binary Search; Midpoint; Inclusive/Exclusive;](https://frontendmasters.com/courses/algorithms/binary-search-algorithm/)
 
@@ -414,7 +418,7 @@ This type of linked list combines the features of a doubly linked list and a cir
 
 - Midpoint
 
-  ****- [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
+  \*\*\*\*- [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
 
   ```js
   /**
@@ -423,15 +427,18 @@ This type of linked list combines the features of a doubly linked list and a cir
   - High is exclusive | Offset by one - this midpoint implementation uses low as an offset
   - Additionally: AWS for pagination includes offet, MySQL in its query for pagination makes use of OFFSET
   */
-  const getMidPointWithLowInclusiveAndHighExclusive = (lowInclusive: number, highExclusive: number): number => {
-      const response = lowInclusive + ((highExclusive - lowInclusive) / 2)
-      return Math.floor(response)
-  }
+  const getMidPointWithLowInclusiveAndHighExclusive = (
+    lowInclusive: number,
+    highExclusive: number
+  ): number => {
+    const response = lowInclusive + (highExclusive - lowInclusive) / 2;
+    return Math.floor(response);
+  };
   ```
 
-- *Establish the mental model of having your index off by 1's | inclusive/exclusive [low, high) range[0, 5)*
+- _Establish the mental model of having your index off by 1's | inclusive/exclusive [low, high) range[0, 5)_
 
-- Index: *Offset by One* | *useMemorize* | The phrase "offset by one" typically refers to a situation where something is shifted or adjusted by a single unit or increment.
+- Index: _Offset by One_ | The phrase "offset by one" typically refers to a situation where something is shifted or adjusted by a single unit or increment.
 
 A note on Set Theory
 
@@ -518,7 +525,9 @@ It is not exactly a tree traversal, rather we use mathematical formula to access
 
   - Memorize to compare children nodes before so that you heapify down to the correct node, in case of min heap, heapify down to the smaller node; this ensures that the the node with the samllest value remains at the top
 
-## [Graph Theory Quintessential](https://youtube.com/playlist?list=PLpXOY-RxVRTPPVLBP6-sz6CMWxhtrI-v_)
+## Graph Theory
+
+[Graph Theory Quintessential](https://youtube.com/playlist?list=PLpXOY-RxVRTPPVLBP6-sz6CMWxhtrI-v_)
 
 - Intro
 - Depth First
@@ -535,7 +544,7 @@ The key conceptual difference between traversal and search lies in their primary
 
 - **Search**:
 
-  - **Purpose**: Search involves finding a specific node or element within a tree or graph, often with a particular goal or criteria in mind. The objective is to locate a target node efficiently. [The algorithms in this class are Depth First Search (DFS), Breadth First Search (BFS), and Dijkstra’s algorithm. If you have additional time, I recommend you learn the A* algorithm as well.](https://levelup.gitconnected.com/must-know-algorithms-for-coding-interviews-937d807064e0#:~:text=The%20algorithms%20in%20this%20class%20are%20Depth%20First%20Search%20(DFS)%2C%20Breadth%20First%20Search%20(BFS)%2C%20and%20Dijkstra%E2%80%99s%20algorithm.%20If%20you%20have%20additional%20time%2C%20I%20recommend%20you%20learn%20the%20A*%20algorithm%20as%20well.)
+  - **Purpose**: Search involves finding a specific node or element within a tree or graph, often with a particular goal or criteria in mind. The objective is to locate a target node efficiently. [The algorithms in this class are Depth First Search (DFS), Breadth First Search (BFS), and Dijkstra’s algorithm. If you have additional time, I recommend you learn the A\* algorithm as well.](<https://levelup.gitconnected.com/must-know-algorithms-for-coding-interviews-937d807064e0#:~:text=The%20algorithms%20in%20this%20class%20are%20Depth%20First%20Search%20(DFS)%2C%20Breadth%20First%20Search%20(BFS)%2C%20and%20Dijkstra%E2%80%99s%20algorithm.%20If%20you%20have%20additional%20time%2C%20I%20recommend%20you%20learn%20the%20A*%20algorithm%20as%20well.>)
 
   - **Types**: Here are two common types of tree search:
 
@@ -546,6 +555,7 @@ The key conceptual difference between traversal and search lies in their primary
       - **Data Structure**: BFS uses a queue data structure to keep track of nodes to visit. Nodes are enqueued (added to the back of the queue) when they are discovered and dequeued (removed from the front of the queue) when they are visited.
 
       - **Use Cases**:
+
         - Finding the shortest path in an unweighted graph: Since BFS explores nodes level by level, the first time you encounter the target node, you can be sure that it is the shortest path.
         - Exploring all possible paths from a source node to a target node.
         - Discovering connected components in an unweighted graph.
@@ -559,6 +569,7 @@ The key conceptual difference between traversal and search lies in their primary
       - **Data Structure**: DFS can be implemented using either recursion or a stack data structure. In a recursive DFS, each recursive call explores a node's children.
 
       - **Use Cases**:
+
         - Determining whether a path exists between two nodes.
         - Topological sorting: Ordering nodes in a directed acyclic graph (DAG) such that for every directed edge (u, v), node u comes before node v in the ordering.
         - Finding cycles in a graph.
@@ -581,52 +592,56 @@ The key conceptual difference between traversal and search lies in their primary
   There are three common types of tree traversals: preorder, inorder, and postorder. Each traversal has a different order in which it visits nodes. Let's explore each of them in more detail:
 
   1. **Preorder Traversal**:
-      - **Order of Visitation**: In preorder traversal, you visit the current node before its children. The order is as follows:
-        1. Visit the current node.
-        2. Traverse the left subtree (recursively).
-        3. Traverse the right subtree (recursively).
-      - **Common Uses**:
-        - Preorder traversal is often used for copying a tree or generating a prefix expression from an expression tree.
-        - It's also useful for certain types of binary tree constructions.
+
+     - **Order of Visitation**: In preorder traversal, you visit the current node before its children. The order is as follows:
+       1. Visit the current node.
+       2. Traverse the left subtree (recursively).
+       3. Traverse the right subtree (recursively).
+     - **Common Uses**:
+       - Preorder traversal is often used for copying a tree or generating a prefix expression from an expression tree.
+       - It's also useful for certain types of binary tree constructions.
 
   2. **Inorder Traversal**:
-      - **Order of Visitation**: In inorder traversal, you visit the left child, then the current node, and finally the right child. The order is as follows:
-        1. Traverse the left subtree (recursively).
-        2. Visit the current node.
-        3. Traverse the right subtree (recursively).
-      - **Common Uses**:
-        - Inorder traversal is commonly used for binary search trees (BSTs) to retrieve elements in sorted order.
-        - It helps in evaluating expressions represented as binary expression trees (infix expressions).
+
+     - **Order of Visitation**: In inorder traversal, you visit the left child, then the current node, and finally the right child. The order is as follows:
+       1. Traverse the left subtree (recursively).
+       2. Visit the current node.
+       3. Traverse the right subtree (recursively).
+     - **Common Uses**:
+       - Inorder traversal is commonly used for binary search trees (BSTs) to retrieve elements in sorted order.
+       - It helps in evaluating expressions represented as binary expression trees (infix expressions).
 
   3. **Postorder Traversal**:
-      - **Order of Visitation**: In postorder traversal, you visit the children of a node before visiting the node itself. The order is as follows:
-        1. Traverse the left subtree (recursively).
-        2. Traverse the right subtree (recursively).
-        3. Visit the current node.
-      - **Common Uses**:
-        - Postorder traversal is often used for tasks like deleting a tree because it ensures that you delete child nodes before their parent nodes.
-        - It can also be used for certain tree transformations and calculations.
 
-      Here's a simple example to illustrate these traversals on a binary tree:
+     - **Order of Visitation**: In postorder traversal, you visit the children of a node before visiting the node itself. The order is as follows:
+       1. Traverse the left subtree (recursively).
+       2. Traverse the right subtree (recursively).
+       3. Visit the current node.
+     - **Common Uses**:
+       - Postorder traversal is often used for tasks like deleting a tree because it ensures that you delete child nodes before their parent nodes.
+       - It can also be used for certain tree transformations and calculations.
 
-      ```plaintext
-              A
-            /   \
-            B     C
-          / \   / \
-          D   E F   G
+     Here's a simple example to illustrate these traversals on a binary tree:
 
-      Preorder Traversal: A, B, D, E, C, F, G
-      Inorder Traversal: D, B, E, A, F, C, G
-      Postorder Traversal: D, E, B, F, G, C, A
-      ```
+     ```plaintext
+             A
+           /   \
+           B     C
+         / \   / \
+         D   E F   G
 
-      The order in which nodes are visited in each traversal type is crucial for various operations involving trees, and choosing the right traversal depends on the specific problem or task you want to solve.
+     Preorder Traversal: A, B, D, E, C, F, G
+     Inorder Traversal: D, B, E, A, F, C, G
+     Postorder Traversal: D, E, B, F, G, C, A
+     ```
 
-      [So in summary, always go from the root in counterclockwise direction around the tree.](https://www.youtube.com/watch?v=WLvU5EQVZqY&lc=UgxwHLh8RDXYgk1hHyp4AaABAg.9YEq1NFsZT09toOL6s_7fS)
-      - For Pre-Order, print the nodes as you visit them for the first time.
-      - For In-Order, print the nodes only when you visit them for the second time.
-      - For Post-order, print the nodes when you visit them for the last time.
+     The order in which nodes are visited in each traversal type is crucial for various operations involving trees, and choosing the right traversal depends on the specific problem or task you want to solve.
+
+     [So in summary, always go from the root in counterclockwise direction around the tree.](https://www.youtube.com/watch?v=WLvU5EQVZqY&lc=UgxwHLh8RDXYgk1hHyp4AaABAg.9YEq1NFsZT09toOL6s_7fS)
+
+     - For Pre-Order, print the nodes as you visit them for the first time.
+     - For In-Order, print the nodes only when you visit them for the second time.
+     - For Post-order, print the nodes when you visit them for the last time.
 
   **Breadth-First Search**: BFS traverses the tree by level and can also be called [level-order traversal](https://skilled.dev/course/tree-traversal-in-order-pre-order-post-order). So it will go all the way through level 1, then level 2, and follow this path until it reaches the last level. BFS is used to find the shortest path to a node.
 
@@ -642,9 +657,9 @@ The key conceptual difference between traversal and search lies in their primary
 
 - **Tree Traversal, Graph Traversals & Cycles**
 
-  In *a tree traversal*, such as DFS or BFS, there is no need to maintain a separate `seen array` or `visited list`. This is because trees are inherently acyclic structures, meaning there are no cycles or loops within the tree. When traversing a tree, whether using depth-first search (DFS) or breadth-first search (BFS), you naturally move from one node to its children or neighboring nodes. Since there are no cycles in a tree, you will not encounter the same node twice during the traversal. The absence of cycles ensures that you won't get stuck in an infinite loop while traversing a tree. Each node in a tree has a unique path to reach it from the root, so there is no need for additional checks to prevent revisiting nodes.
+  In _a tree traversal_, such as DFS or BFS, there is no need to maintain a separate `seen array` or `visited list`. This is because trees are inherently acyclic structures, meaning there are no cycles or loops within the tree. When traversing a tree, whether using depth-first search (DFS) or breadth-first search (BFS), you naturally move from one node to its children or neighboring nodes. Since there are no cycles in a tree, you will not encounter the same node twice during the traversal. The absence of cycles ensures that you won't get stuck in an infinite loop while traversing a tree. Each node in a tree has a unique path to reach it from the root, so there is no need for additional checks to prevent revisiting nodes.
 
-  However, in *a general graph traversal* (not limited to trees) where cycles are possible, maintaining a separate data structure like a `seen array` or `visited list` is necessary to keep track of visited nodes and prevent revisiting them. This helps avoid getting stuck in cycles or infinite loops.
+  However, in _a general graph traversal_ (not limited to trees) where cycles are possible, maintaining a separate data structure like a `seen array` or `visited list` is necessary to keep track of visited nodes and prevent revisiting them. This helps avoid getting stuck in cycles or infinite loops.
 
   Examples of make use of a `seen array` or `visited list` in Graph
 
@@ -662,7 +677,7 @@ Okay, so let's talk about Dijkstra's shortest path. It's actually a family of wh
 
 - LRU
 
-## [Greedy, Divide and Conquer, Dynamic & Backtracking](https://www.youtube.com/playlist?list=PLxvbXPxg6ydxQen2-cPMyzKco1Q89JvPi)
+## Greedy, Divide and Conquer, Dynamic & Backtracking
 
 Silly memory hook: Greatly Designed Data Base - (GDDB) in order to Memorize the following four techniques:
 
@@ -673,6 +688,7 @@ The Greedy Approach
 #### Algorithms that use The Greedy Approach
 
 - Linear Search
+
   - Now, we need to just do the Undo function, which involves merging, hence the name, Merge Sort. All right, there are a bunch of different algorithm strategies. I didn't technically really name any of the algorithm strategies as we go, there's greedy. So linear search is a greedy search. We go until we find the first one, we're done.[(Src: theprimeagen-quicksort-algorithm-frontendmasters)](https://frontendmasters.com/courses/algorithms/quicksort-algorithm/)
 
 - Dijkstra's shortest path, It's actually a family of what is referred to as a greedy algorithm.
@@ -694,7 +710,7 @@ Binary Search, Quick Sort, & Binary Search Tree, share an identical Paradigm. **
 
 ### Dynamic Programming
 
-*Essence* - `Dynamic programming is about finding solution to problems in recursive manner and then removing the overhead of recursion by various ways for example - Memoization, Bottom-up approach, Finding patterns, Deriving explicit formulas or equations.`
+_Essence_ - `Dynamic programming is about finding solution to problems in recursive manner and then removing the overhead of recursion by various ways for example - Memoization, Bottom-up approach, Finding patterns, Deriving explicit formulas or equations.`
 
 #### [What is Dynamic Programming and how is it done](https://youtu.be/BCO8JKA2_N8)
 
@@ -737,35 +753,9 @@ Backtracking is like exploring different paths, trying things out, and if they d
 
 Backtracking is a way to be systematic and explore different options until you find the best one. It's like a game of trial and error where you learn from your mistakes and keep going until you find the answer. Backtracking is a general technique used for systematically exploring possibilities and is often employed in `solving combinatorial problems`.
 
-## [Patterns for Solving Data Structures and Algorithms Problems](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews)
-
-- [NeetCode RoadMap](https://neetcode.io/roadmap?utm_source=linkedin)
-
-### Pattern 0: Frequency Counter Pattern
-
-### Pattern 1: Multiple Pointers by Colt Stelee
-
-[Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on a certain condition](https://cs.slides.com/colt_steele/problem-solving-patterns#/33)
-
-Hint: useful in solving problems related to finding **Pairs**
-
-### Pattern 2: Sliding Window
-
-Hepls in solving *Hint* **Contiguous**
-
-In many problems dealing with an array (or a LinkedList), we are asked to find or calculate something among all the contiguous subarrays (or sublists) of a given size.
-
-## Misc
-
-- <https://medium.com/dare-to-be-better/5-steps-of-problem-solving-approach-d891d6c1ae10>
-
 ### Keywords
 
 - Refer
-
-- Memorize
-
-- Lessons Learnt
 
 ### Refer (Previously learned ideas & concepts)
 
@@ -786,19 +776,22 @@ In many problems dealing with an array (or a LinkedList), we are asked to find o
   - High is exclusive | Offset by one - this midpoint implementation uses low as an offset
   - Additionally: AWS for pagination includes offet, MySQL in its query for pagination makes use of OFFSET
   */
-  const getMidPointWithLowInclusiveAndHighExclusive = (lowInclusive: number, highExclusive: number): number => {
-      const response = lowInclusive + ((highExclusive - lowInclusive) / 2)
-      return Math.floor(response)
-  }
+  const getMidPointWithLowInclusiveAndHighExclusive = (
+    lowInclusive: number,
+    highExclusive: number
+  ): number => {
+    const response = lowInclusive + (highExclusive - lowInclusive) / 2;
+    return Math.floor(response);
+  };
   ```
 
 - `OFFSET 🌟`
 
-  - Binary Search approach *offset* exclusive high index. Crossing point of both pointers low and high becomses base case.
+  - Binary Search approach _offset_ exclusive high index. Crossing point of both pointers low and high becomses base case.
   - In a SinglyLinkedList we make use of offsetNode. (offsetNode - get the prev node to the current in order to update pointers)
-  - MySQL Query for pagination makes use of *OFFSET*
-  - AWS for pagination makes use of *offset*
-  - Time zone UTC *offsets*
+  - MySQL Query for pagination makes use of _OFFSET_
+  - AWS for pagination makes use of _offset_
+  - Time zone UTC _offsets_
 
 - nested loop
 
