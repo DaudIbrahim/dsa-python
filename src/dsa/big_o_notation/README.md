@@ -20,8 +20,7 @@
   - Average Case - Big Theta
   - Worst Case - Big O
 
-- Reaading Material
-  - [Big-O notation explained by a self-taught programmer](https://justin.abrah.ms/computer-science/big-o-notation-explained.html)
+## Read
 
 Math
 
