@@ -1,27 +1,27 @@
 {
   "folders": [
     {
-      "path": "E:/python-2024/dsa-python"
-    }
+      "path": "E:/python-2024/dsa-python",
+    },
   ],
   "settings": {
     // formatter
     "[python]": {
-      "editor.defaultFormatter": "charliermarsh.ruff"
+      "editor.defaultFormatter": "charliermarsh.ruff",
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "prettier.prettier-vscode",
 
     "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX"],
 
     // theme
     "workbench.colorTheme": "Default Dark Modern",
-    "editor.stickyScroll.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
 
     // Editor
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
-    }
-  }
+      "source.fixAll": "explicit",
+    },
+  },
 }

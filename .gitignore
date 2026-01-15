@@ -152,5 +152,31 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+
+# Trash
+.Trashes
+
+# Time Machine
+.com.apple.timemachine.donotpresent
+
+# AFP network shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
 # Local
 local.md

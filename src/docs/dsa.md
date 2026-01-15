@@ -7,7 +7,6 @@ _The goal of programming is to create solutions, not to type on a keyboard. Gene
 - Grow a core competency in _Translating Abstraction into Concreteness_. [It's definitely a core competency.If you can get really good at this visualizing creating your problems firston a whiteboard, and then being able to translate abstraction into concreteness.](https://frontendmasters.com/courses/algorithms/linear-search-kata-setup/?t=52)
 
 - Visualizing: Creating your problems first on a whiteboard, and then being able to [translate abstraction into concreteness](https://github.com/DaudIbrahim/knowledge-base-pvt/blob/main/snippets/wisdom/ideas-and-knowledge-the-power-beyond-the-tool.md).
-
   - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
   - [VisuAlgo](https://visualgo.net/en)
@@ -39,9 +38,7 @@ It is more important to be able to Recognize a problem, than to Memorize an algo
 Spend 45 minutes of focus time on solving a problem. [spending about 30 to 60 minutes](https://youtu.be/oUJlLAdQGIk?&t=77)
 
 - You solved it - `Great`
-
   - You did'nt
-
     1. Spend the rest of you time learning the solution
     2. Re-Implement the Solution from scratch by yourself **Do It!**
     3. Consider checking the solution after an hour of effort on a problem is a reasonable approach. The key is not just in peeking but in thoroughly understanding the solution, learning the underlying concepts, and challenging yourself to reimplement it from scratch. The goal is not only to solve the problem but to deepen your understanding and enhance your problem-solving skills. _31-Jan-24_
@@ -122,12 +119,10 @@ This is the paradox - no matter what we do, we end up contradicting ourselves. I
 ### Recursion Concepts
 
 1. _Case_
-
    - Base Case
    - Inductive Case
 
 2. _Function Properties. Every function has the following:_
-
    - Return Address - rA
    - Return Value- rV
    - Argument - A
@@ -135,7 +130,6 @@ This is the paradox - no matter what we do, we end up contradicting ourselves. I
    **Functions return: Sometimes you overlook this, in recursion we call functions recursively. Keep in mind the fact that a function always returns, regardless of whether it returns a void or a value. In a recursive manner you build up the stack with function call - you hit a base and the functions start to return, effectively emptying the call stack by popping of each function.**
 
 3. _Recursion: Actions_
-
    - Pre - performing some Action before recursion
    - Recursion - the recursion call
    - Post - performing some Action after the recursion call
@@ -213,7 +207,6 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
 ### Relationship between Mathematical Induction & Recursion?
 
 - Sequence
-
   - Think in terms of the following:
 
          Sequence, Pattern & Terms.
@@ -221,7 +214,6 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
          Both Mathematical Induction & Recursion deal with these.
 
 - Direction
-
   - Mathematical Induction
 
          `a, (a+1), (a+2), (a+3), ... k, (k+1)`
@@ -240,7 +232,6 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
       - Recursion ∞ to Initial Terms
 
 - Supposition
-
   - Both Inductive Hypothesis & Recursive Leap of Faith deal with a Supposition; a Hypothesis.
 
         Mathematical Induction: Inductive Hypothesis is the supposition that P(k) is true; where k is any particular, but arbitrarily chosen integer with k >= a.
@@ -263,13 +254,11 @@ The Recursive Leap of Faith is similar to the inductive hypothesis in a proof by
 [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
 - [Important concepts](https://theprimeagen.github.io/fem-algos/lessons/algorithms-and-time-space-complexity/time-and-space-complexity)
-
   - Growth is with respect to the input
   - Constants are dropped
   - Worst case is usually the way we measure
 
 - Cases
-
   - Best Case - Big Omega
   - Average Case - Big Theta
   - Worst Case - Big O
@@ -291,19 +280,14 @@ Random Access with an ArrayList. Example - Give me index three.
 One key difference that with purely Arrays you essentually define a size aka a container
 
 - In array operations `insert` and `write` mean two different things
-
   - Example An array of size 3. length of Three `[idx:0, idx:1, idx:2]`
-
     - At index 2 `write` value dummy-value. This is a write opration, writing at index 2
 
     - At index 3 `write` value duumy-data-2
-
       - Now observe that within an array with of capacity of three items you are writing data that exceeds the capacoty to 4 items
-
         - & behold the Array has to grow in size which is the `insert` operation
 
         - Ability to Grow
-
           - Create a new array with increased capacity
           - Copy existing items
           - Write the new item at index 4
@@ -443,11 +427,9 @@ _Paradigm of Divide and Conquer_
 A note on Set Theory
 
 - Closed Interval
-
   - [a, b] - a & b both are included in the interval
 
 - Half-open Interval
-
   - [a, b) - a is included & b is not, b is excluded from the interval
 
     Half Interval Python Example
@@ -464,15 +446,10 @@ A note on Set Theory
 ### Quick Sort (< Pivot <=)
 
 - Divide and Conquer
-
   - Partition the array into two parts, partition one to the left and other to the right
-
     - Pivot Partition Key. Select an index/value to do the partition. There are more than one ways to pivotPartition. I have used the approach of using the last index as the pivot point aka... memory hook: Partition Key. (Similar to the idea of partition key in system design database sharding)
-
       - I am using the approach from [VisuAlgo NUS](https://visualgo.net/en/sorting)
-
         - Memorize the approach from [VisuAlgo NUS](https://visualgo.net/en/sorting) to solve for pivotPartition
-
           - **< Pivot <=**
 
           - **The pivotPartition Transforms [7, 1, 10, 3, 5] into [< Pivot <=]**
@@ -506,15 +483,12 @@ We are not Traversing instead accessing the parent and child by making use of in
 It is not exactly a tree traversal, rather we use mathematical formula to access left and right child; & parent from child
 
 - Left Child
-
   - 2i + 1
 
 - Right Child
-
   - 2i + 2
 
 - Parent
-
   - (i - 1) / 2
 
 ### Operation
@@ -522,7 +496,6 @@ It is not exactly a tree traversal, rather we use mathematical formula to access
 - Insert: Heapify Up
 
 - Delete: Heapify Down
-
   - Memorize to compare children nodes before so that you heapify down to the correct node, in case of min heap, heapify down to the smaller node; this ensures that the the node with the samllest value remains at the top
 
 ## Graph Theory
@@ -543,19 +516,15 @@ Traversal and Search are two fundamental operations used in working with graphs 
 The key conceptual difference between traversal and search lies in their primary objectives and how they navigate the tree structure. Traversal aims to visit all nodes in a systematic way, while search aims to find a specific node or satisfy a particular condition efficiently. The choice between traversal and search depends on the problem you're trying to solve with the tree or graph data structure.
 
 - **Search**:
-
   - **Purpose**: Search involves finding a specific node or element within a tree or graph, often with a particular goal or criteria in mind. The objective is to locate a target node efficiently. [The algorithms in this class are Depth First Search (DFS), Breadth First Search (BFS), and Dijkstra’s algorithm. If you have additional time, I recommend you learn the A\* algorithm as well.](<https://levelup.gitconnected.com/must-know-algorithms-for-coding-interviews-937d807064e0#:~:text=The%20algorithms%20in%20this%20class%20are%20Depth%20First%20Search%20(DFS)%2C%20Breadth%20First%20Search%20(BFS)%2C%20and%20Dijkstra%E2%80%99s%20algorithm.%20If%20you%20have%20additional%20time%2C%20I%20recommend%20you%20learn%20the%20A*%20algorithm%20as%20well.>)
 
   - **Types**: Here are two common types of tree search:
-
     - **Breadth-First Search (BFS)**: BFS starts at the root node and explores all neighbor nodes at the current depth level before moving on to nodes at the next depth level. It's typically used for finding the shortest path or for exploring all possible paths in an unweighted graph.
-
       - **Exploration Strategy**: BFS explores a graph by visiting all neighbors of a node before moving on to their children. It explores nodes at the current depth level before proceeding to nodes at the next depth level.
 
       - **Data Structure**: BFS uses a queue data structure to keep track of nodes to visit. Nodes are enqueued (added to the back of the queue) when they are discovered and dequeued (removed from the front of the queue) when they are visited.
 
       - **Use Cases**:
-
         - Finding the shortest path in an unweighted graph: Since BFS explores nodes level by level, the first time you encounter the target node, you can be sure that it is the shortest path.
         - Exploring all possible paths from a source node to a target node.
         - Discovering connected components in an unweighted graph.
@@ -563,13 +532,11 @@ The key conceptual difference between traversal and search lies in their primary
       - **Completeness**: BFS is complete, meaning it will find a target node if it exists, provided the graph is connected.
 
     - **Depth-First Search (DFS)**: DFS explores as far as possible along a branch before backtracking. It can be implemented using recursion or a stack data structure. DFS is often used for tasks like checking if a path exists between two nodes or for topological sorting. **Depth-First preserves the shape of the traversal**
-
       - **Exploration Strategy**: DFS explores a graph by following a single branch as deeply as possible before backtracking. It explores one branch entirely before moving on to the next sibling branch.
 
       - **Data Structure**: DFS can be implemented using either recursion or a stack data structure. In a recursive DFS, each recursive call explores a node's children.
 
       - **Use Cases**:
-
         - Determining whether a path exists between two nodes.
         - Topological sorting: Ordering nodes in a directed acyclic graph (DAG) such that for every directed edge (u, v), node u comes before node v in the ordering.
         - Finding cycles in a graph.
@@ -590,9 +557,7 @@ The key conceptual difference between traversal and search lies in their primary
   **Types**: [There are three common types of tree traversal using DFS](https://rb.gy/2j225):
 
   There are three common types of tree traversals: preorder, inorder, and postorder. Each traversal has a different order in which it visits nodes. Let's explore each of them in more detail:
-
   1. **Preorder Traversal**:
-
      - **Order of Visitation**: In preorder traversal, you visit the current node before its children. The order is as follows:
        1. Visit the current node.
        2. Traverse the left subtree (recursively).
@@ -602,7 +567,6 @@ The key conceptual difference between traversal and search lies in their primary
        - It's also useful for certain types of binary tree constructions.
 
   2. **Inorder Traversal**:
-
      - **Order of Visitation**: In inorder traversal, you visit the left child, then the current node, and finally the right child. The order is as follows:
        1. Traverse the left subtree (recursively).
        2. Visit the current node.
@@ -612,7 +576,6 @@ The key conceptual difference between traversal and search lies in their primary
        - It helps in evaluating expressions represented as binary expression trees (infix expressions).
 
   3. **Postorder Traversal**:
-
      - **Order of Visitation**: In postorder traversal, you visit the children of a node before visiting the node itself. The order is as follows:
        1. Traverse the left subtree (recursively).
        2. Traverse the right subtree (recursively).
@@ -638,7 +601,6 @@ The key conceptual difference between traversal and search lies in their primary
      The order in which nodes are visited in each traversal type is crucial for various operations involving trees, and choosing the right traversal depends on the specific problem or task you want to solve.
 
      [So in summary, always go from the root in counterclockwise direction around the tree.](https://www.youtube.com/watch?v=WLvU5EQVZqY&lc=UgxwHLh8RDXYgk1hHyp4AaABAg.9YEq1NFsZT09toOL6s_7fS)
-
      - For Pre-Order, print the nodes as you visit them for the first time.
      - For In-Order, print the nodes only when you visit them for the second time.
      - For Post-order, print the nodes when you visit them for the last time.
@@ -662,7 +624,6 @@ The key conceptual difference between traversal and search lies in their primary
   However, in _a general graph traversal_ (not limited to trees) where cycles are possible, maintaining a separate data structure like a `seen array` or `visited list` is necessary to keep track of visited nodes and prevent revisiting them. This helps avoid getting stuck in cycles or infinite loops.
 
   Examples of make use of a `seen array` or `visited list` in Graph
-
   - [BFSGraphMatrix](../kata-machine/src/day2/BFSGraphMatrix.ts)
   - [DFSGraphList](../kata-machine/src/day2/DFSGraphList.ts)
   - [DijkstraList.ts](../kata-machine/src/day2/DijkstraList.ts.ts)
@@ -688,7 +649,6 @@ The Greedy Approach
 #### Algorithms that use The Greedy Approach
 
 - Linear Search
-
   - Now, we need to just do the Undo function, which involves merging, hence the name, Merge Sort. All right, there are a bunch of different algorithm strategies. I didn't technically really name any of the algorithm strategies as we go, there's greedy. So linear search is a greedy search. We go until we find the first one, we're done.[(Src: theprimeagen-quicksort-algorithm-frontendmasters)](https://frontendmasters.com/courses/algorithms/quicksort-algorithm/)
 
 - Dijkstra's shortest path, It's actually a family of what is referred to as a greedy algorithm.
@@ -760,13 +720,11 @@ Backtracking is a way to be systematic and explore different options until you f
 ### Refer (Previously learned ideas & concepts)
 
 - Start by fiding a solution for the smallest problem
-
   - Start by solving for the base case
 
   - Walk through the algorithm like ["Animator vs. Animation"](https://youtu.be/B1J6Ou4q8vE)
 
 - middle-element
-
   - [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
 
   ```ts
@@ -778,7 +736,7 @@ Backtracking is a way to be systematic and explore different options until you f
   */
   const getMidPointWithLowInclusiveAndHighExclusive = (
     lowInclusive: number,
-    highExclusive: number
+    highExclusive: number,
   ): number => {
     const response = lowInclusive + (highExclusive - lowInclusive) / 2;
     return Math.floor(response);
@@ -786,7 +744,6 @@ Backtracking is a way to be systematic and explore different options until you f
   ```
 
 - `OFFSET 🌟`
-
   - Binary Search approach _offset_ exclusive high index. Crossing point of both pointers low and high becomses base case.
   - In a SinglyLinkedList we make use of offsetNode. (offsetNode - get the prev node to the current in order to update pointers)
   - MySQL Query for pagination makes use of _OFFSET_
@@ -794,11 +751,9 @@ Backtracking is a way to be systematic and explore different options until you f
   - Time zone UTC _offsets_
 
 - nested loop
-
   - nested loops are to be avoided wherever and as much as possible use two pointers, sliding window, & fast and slow pointers
 
 - database sharding
-
   1. Split Data - find a way to split your data into independant buckets
 
   2. Select a sharding key - based on your sharding key the load distribution will take place on the server

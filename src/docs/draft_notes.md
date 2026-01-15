@@ -47,9 +47,12 @@
 
 4. Linked List All – Dive deep into linked lists.
 
-   - Pattern: Fast and Slow Pointer, In-Place Reversal of a Linked List, Solve any Linked list – Advanced Linked list problem solving.
+   - Pattern: Fast and Slow Pointer
+   - In-Place Reversal of a Linked List
+   - Solve any Linked list.
 
 5. Stack – Learn about stacks and their applications. (x3)
+
 6. Queue – Explore queues and their uses. & problem solving (x3)
 
 7. Recursion in Depth – Recursion Udemy, Recursion Problem solving, Recursion pattern & problem solving
