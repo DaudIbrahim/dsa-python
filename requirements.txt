@@ -4,5 +4,7 @@
 #
 #    pip-compile
 #
+pytest==9.0.2
+    # via -r requirements.in
 ruff==0.1.9
     # via -r requirements.in

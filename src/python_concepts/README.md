@@ -45,6 +45,9 @@ for index, name in enumerate(names):
 # Output: Index 0: Alice, Index 1: Bob, Index 2: Charlie
 
 # With custom start index
+# Gotcha: The second argument to enumerate sets the starting value for the index,
+# but it does not change the fact that enumerate always starts iterating from
+# the first element of the list. To skip elements, additional slicing or logic is needed.
 for index, name in enumerate(names, start=1):
     print(f"Person {index}: {name}")
 # Output: Person 1: Alice, Person 2: Bob, Person 3: Charlie

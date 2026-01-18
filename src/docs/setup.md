@@ -50,13 +50,13 @@ You'll see `(venv)` appear in your terminal prompt when it's activated.
 
 ## 5. Install Dependencies
 
-Now install the packages listed in your requirements file:
+Now install the packages:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.in
 ```
 
-(Use `requirements.txt`, not `requirements.in` - the `.txt` file is the one with the actual versions)
+This will install `ruff` (linter) and `pytest` (testing framework).
 
 ## 6. Verify Installation
 
@@ -66,6 +66,34 @@ Check if ruff was installed:
 ruff --version
 ```
 
-That's it! Now you can start coding your DSA practice. Create a new `.py` file and start writing Python code.
+That's it! Now you can start coding your DSA practice.
 
-**Quick tip for DSA:** Just create files like `arrays.py`, `linkedlist.py`, etc. and run them with `python filename.py`.
+## 7. Testing Your DSA Code (Kata Machine)
+
+This project includes a **kata machine** for testing your DSA implementations with pytest!
+
+### Verify pytest installation
+
+```bash
+pytest --version
+```
+
+### Run tests
+
+```bash
+# Test all algorithms
+python kata.py
+
+# Test a specific algorithm (e.g., binary_search)
+python kata.py binary_search
+```
+
+### How it works
+
+1. Navigate to `kata/` folder
+2. Each algorithm has its own folder (e.g., `kata/binary_search/`)
+3. Write your implementation in the algorithm file (e.g., `binary_search.py`)
+4. Run tests to get instant feedback
+5. Fix errors and iterate until all tests pass ✅
+
+For detailed testing guide, see: `kata/README.md`

@@ -390,7 +390,7 @@ This type of linked list combines the features of a doubly linked list and a cir
 
 ### Binary Search
 
-_Paradigm of Divide and Conquer_
+_Paradigm of Divide and Conquer_.
 
 - [How Binary Search Makes Computers Much, Much Faster](https://www.youtube.com/watch?v=KXJSjte_OAI&pp=ygUMYmlucmF5cyBlYXJj)
 
@@ -401,8 +401,7 @@ _Paradigm of Divide and Conquer_
 - [Binary search can only be implemented on sorted data.](https://shorturl.at/dwNQZ)
 
 - Midpoint
-
-  \*\*\*\*- [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
+  - [getMidIndex via `getMidPointWithLowInclusiveAndHighExclusive`](https://github.com/DaudIbrahim/dsa-js/blob/main/kata-machine/src/day2/BinarySearchList.ts#L33)
 
   ```js
   /**
