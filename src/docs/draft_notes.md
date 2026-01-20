@@ -46,11 +46,12 @@
 1. From `Intro` till `Tuple` – Do All problem solving.
 
 2. Memorize the following 5x techniques:
-   1. Binary Search (Mid Point)
-   2. Quick Sort
+   1. Binary Search (Mid Point) ✅
+   2. Recursion
    3. Merge Sort
-   4. Bucket Sort
-   5. Merge Intervals (_1st_ Pattern)
+   4. Quick Sort
+   5. Bucket Sort
+   6. Merge Intervals (_1st_ Pattern)
 
 3. Pattern: Sliding Window (_2nd_ Pattern) & Two Pointer Patterns (_3rd_ Pattern) – Study key problem-solving patterns.
    - <https://youtube.com/playlist?list=PLxvbXPxg6ydxTJ99R8T-7DwPs2W1DuTVn>
@@ -65,6 +66,11 @@
 6. Queue – Explore queues and their uses. & problem solving (x3)
 
 7. Recursion in Depth – Recursion, Recursion Problem solving, Recursion pattern & problem solving
+
+##### XYZ
+
+1. Binary Search (Mid Point) ✅
+2.
 
 ## Others
 
