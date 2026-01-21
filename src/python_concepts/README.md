@@ -59,25 +59,41 @@ for index, name in enumerate(names, start=1):
 
 ```python
 # mutable, ordered
-my_list = [1, 2, 3, 4, 5]
-my_list.append(6)
-print(my_list)  # [1, 2, 3, 4, 5, 6]
+# LISTS - most common in Leetcode
+lst = [1, 2, 3, 4, 5]
 
-mixed_list = [1, "hello", 3.14, True]
-print(mixed_list[1])  # hello
+# Access
+lst[0]              # first element
+lst[-1]             # last element
+lst[1:3]            # slice [2, 3]
+
+# Modify
+lst.append(6)       # add to end - O(1)
+lst.pop()           # remove last - O(1)
+lst.insert(0, 99)   # insert at index - O(n)
+lst.remove(3)       # remove first occurrence - O(n)
+
+# Common patterns
+len(lst)            # length
+lst.reverse()       # reverse in place
+lst.sort()          # sort in place
+sorted(lst)         # return new sorted list
+lst.count(2)        # count occurrences
 ```
 
 ### tuple
 
 ```python
-# immutable, ordered
-my_tuple = (1, 2, 3, 4, 5)
-print(my_tuple[0])  # 1
-# my_tuple[0] = 10  # This would raise TypeError
+# TUPLES - immutable, ordered, mostly for reading
+tup = (1, 2, 3)
 
-coordinates = (10, 20)
-x, y = coordinates  # Tuple unpacking
-print(f"x={x}, y={y}")  # x=10, y=20
+# Access (same as list)
+tup[0]              # first element
+tup[-1]             # last element
+
+# Common use
+x, y = (1, 2)       # unpacking
+return (i, j)       # return multiple values
 ```
 
 ### string
@@ -95,10 +111,11 @@ print(my_string.split())  # ['Hello', 'World']
 ### set
 
 ```python
-# unordered, unique elements
+# unordered, for uniqueness and fast lookup
 my_set = {1, 2, 3, 4, 5}
 my_set.add(6)
 my_set.add(3)  # Duplicate, won't be added
+s.discard(2)        # remove (no error if missing) - O(1)
 print(my_set)  # {1, 2, 3, 4, 5, 6}
 
 # Set operations
@@ -107,25 +124,39 @@ set_b = {3, 4, 5, 6}
 print(set_a.union(set_b))  # {1, 2, 3, 4, 5, 6}
 print(set_a.intersection(set_b))  # {3, 4}
 print(set_a.difference(set_b))  # {1, 2}
+
+# Check membership
+5 in s              # O(1) - THIS IS KEY!
 ```
 
 ### dictionary
 
 ```python
+# DICTIONARY - for fast key lookup
 # key-value pairs, unordered
-my_dict = {
-    "name": "Alice",
-    "age": 25,
-    "city": "New York"
-}
-print(my_dict["name"])  # Alice
+d = {"a": 1, "b": 2, "c": 3}
 
-my_dict["country"] = "USA"  # Adding new key-value
-my_dict["age"] = 26  # Updating value
+# Access
+d["a"]              # get value (error if missing)
+d.get("a")          # get value (None if missing)
+d.get("z", 0)       # get with default value
 
-# Iterating through dictionary
-for key, value in my_dict.items():
-    print(f"{key}: {value}")
+# Modify
+d["d"] = 4          # add/update - O(1)
+del d["a"]          # remove key
+d.pop("b")          # remove and return value
+
+# Check
+"a" in d            # check if key exists - O(1)
+
+# Iterate
+for key in d:                    # iterate keys
+for value in d.values():         # iterate values
+for key, value in d.items():     # iterate pairs
+
+# Common patterns
+d = {}
+d[key] = d.get(key, 0) + 1      # count frequency
 ```
 
 ## Must-Know Operations
