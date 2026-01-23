@@ -1,7 +1,7 @@
 try {
-    const arr = []
-    console.log(arrX)
+  const arr = [];
+  console.log(arrNotFound);
 } catch (error) {
-    console.log("Err!")
-    console.log(error)
+  console.log("Error! arr not found");
+  console.log(error);
 }

@@ -1,5 +1,12 @@
 # PYTHON FOR DSA — BASIC CONCEPTS
 
+Keep these **Python reminders in mind**:
+
+- Use `!=` for “not equal”
+- `False` / `True` are capitalized
+- `not` instead of `!`
+- Use `dict.get(char, 0)` for counting frequencies
+
 ## Looping
 
 ### while
@@ -38,19 +45,22 @@ for i in range(5):
 ### enumerate()
 
 ```python
-# Returns index and value pairs
+# enumerate(iterable, start=0) → yields (index, value) pairs
+# Works with any iterable: lists, strings, tuples, sets, dicts (keys)
 names = ["Alice", "Bob", "Charlie"]
-for index, name in enumerate(names):
-    print(f"Index {index}: {name}")
+
+# Default index 0
+for i, name in enumerate(names):
+    print(f"Index {i}: {name}")
 # Output: Index 0: Alice, Index 1: Bob, Index 2: Charlie
 
-# With custom start index
-# Gotcha: The second argument to enumerate sets the starting value for the index,
-# but it does not change the fact that enumerate always starts iterating from
-# the first element of the list. To skip elements, additional slicing or logic is needed.
-for index, name in enumerate(names, start=1):
-    print(f"Person {index}: {name}")
+# Custom start index
+for i, name in enumerate(names, start=1):
+    print(f"Person {i}: {name}")
 # Output: Person 1: Alice, Person 2: Bob, Person 3: Charlie
+
+# Gotcha: enumerate always iterates from the first element;
+# start only changes the numbering, not the position in the iterable.
 ```
 
 ## Linear Data Structures
@@ -59,7 +69,7 @@ for index, name in enumerate(names, start=1):
 
 ```python
 # mutable, ordered
-# LISTS - most common in Leetcode
+# LISTS - most common
 lst = [1, 2, 3, 4, 5]
 
 # Access
@@ -157,6 +167,23 @@ for key, value in d.items():     # iterate pairs
 # Common patterns
 d = {}
 d[key] = d.get(key, 0) + 1      # count frequency
+```
+
+### set vs dictionary
+
+```python
+# DICTIONARIES (key : value)
+d1 = dict()                  # empty dictionary
+d2 = dict(a=1, b=2)          # dictionary with values
+
+d1 = {}                      # empty dictionary (overwrites previous d1)
+d2 = {"a": 1, "b": 2}        # dictionary with values (overwrites previous d2)
+
+
+# SETS (values only)
+s1 = set()                   # empty set (NOT {})
+s2 = set([1, 2, 3])          # set from iterable
+s3 = {1, 2, 3}               # set using braces
 ```
 
 ## Must-Know Operations

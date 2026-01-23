@@ -52,15 +52,6 @@ else:
     print(f"{target} is not in list")
 
 
-def linear_search(p_list, p_target):
-    # Linear Search
-    for index, value in enumerate(p_list):
-        if value == p_target:
-            return index
-
-    return -1
-
-
 """
     List Operations/Functions
 
@@ -132,9 +123,6 @@ for item in my_list:
 for i in range(len(my_list)):
     print(my_list[i])
 
-for index, item in enumerate(my_list):
-    print(index, item)
-
 i = 0
 
 while i < len(my_list):
@@ -171,4 +159,3 @@ even_list = [(item) for item in number_list if (item % 2 == 0)]
 odd_list = [(item) for item in number_list if (item % 2 != 0)]
 
 print(even_list, odd_list)
-
