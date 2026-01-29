@@ -2,6 +2,10 @@
 
 [Online Python Compiler and Visualizer](https://www.codechef.com/ide)
 
+[Coding Interview Patterns: Nail Your Next Coding Interview](https://read.amazon.com/sample/1736049135?clientId=share)
+
+[CLRS](https://read.amazon.com/sample/0262033844?clientId=share)
+
 ## Setup
 
 - [VS Code Portable Mode](https://code.visualstudio.com/docs/editor/portable)
@@ -42,5 +46,7 @@ It's not algorithms. It's problem-solving process.
 ```bash
 python3 kata.py binary_search
 ```
+
+[Data Structure & Algorithms Playlist by Witty Humour](https://youtube.com/playlist?list=PLxvbXPxg6ydxE3bOWlrAaMsRiY-kVNVGS&si=ObedDEDKTXoJalgE)
 
 ---

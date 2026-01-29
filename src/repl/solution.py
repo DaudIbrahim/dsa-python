@@ -1,16 +1,5 @@
-from typing import List
-
-# class Solution:
-#     def searchInsert(self, nums: List[int], target: int) -> int:
-#         for i in range(0, len(nums)):
-#             if (nums[i] >= target):
-#                 return i
-
-#         return len(nums)
-
-
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def searchInsert(self, nums: list[int], target: int) -> int:
 
         # Think About Invariants
         # An invariant is something that's always true during your loop:

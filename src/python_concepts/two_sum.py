@@ -1,7 +1,5 @@
 # flake8: noqa
 
-from typing import List
-
 # input/output
 input = [3, 21, 15, 7]
 input_target = 10
@@ -9,7 +7,7 @@ input_target = 10
 # two_sum
 
 
-def two_sum(nums: List[int], target: int):
+def two_sum(nums: list[int], target: int):
     len_nums = len(nums)
 
     for i in range(0, len_nums):
@@ -26,7 +24,7 @@ def two_sum(nums: List[int], target: int):
 # The ultimate goal is to become proficient in the art of problem-solving. Do not get bogged down by language constructs; instead, focus your efforts on deeply understanding problems and devising elegant algorithms and solutions. Programming languages, in our case Python, is the tool to effectively implement those solutions. Conquer the essence of problem-solving first, and language constructs will naturally follow.
 
 
-def two_sum_while(nums: List[int], target: int) -> List[int]:
+def two_sum_while(nums: list[int], target: int) -> list[int]:
     i = 0
     j = 1
 
@@ -43,24 +41,24 @@ def two_sum_while(nums: List[int], target: int) -> List[int]:
 
 # print("two_sum_while ->", two_sum_while(input, input_target))
 
-# TODO
-# hashMap
+# twoSum: hashMap
 
 
-def two_sum_hash_map(nums: List[int], target: int) -> List[int]:
+def two_sum_hash_map(nums: list[int], target: int) -> list[int]:
     hash_map = dict()
 
+    # we use compliment
     for idx in range(len(nums)):
         val = nums[idx]
-        hash_map[val] = idx
+        compliment = target - val
 
-    # we use compliment
-    for k in hash_map:
-        compliment = target - k
         if (compliment in hash_map):
-            return [hash_map[k], hash_map[compliment]]
+            return [idx, hash_map.get(compliment)]
+        else:
+            hash_map[val] = idx
 
     return []
 
 
 print("two_sum_hash_map ->", two_sum_hash_map([3, 2, 4], 6))
+print("two_sum_hash_map ->", two_sum_hash_map([3, 3], 6))

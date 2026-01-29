@@ -10,6 +10,7 @@
 
 - Arrays
 - Dictionaries
+- Heaps
 - Linked List
 - Stack
 - Queue
@@ -37,24 +38,25 @@
 #### Part One Implementation
 
 1. Binary Search (Mid Point) ✅
-2. HashMaps
+2. HashMaps ✅
+3. Merge Sort
+
+- Two Pointers
+- Sliding Window
+- Merge Intervals
+- Prefix Sum Array and Range Sum Queries
 
 ```txt
-1. Recursion replaced by (Basic Math for DSA) & (Strings in python)
-2. Merge Sort
-3. Quick Sort
-4. Bucket Sort
-5. Merge Intervals (_1st_ Pattern)
+_Merge Quick Bucket_ (Merge, Quick & Bucket Sort)
 
-6. Pattern: Sliding Window (_2nd_ Pattern) & Two Pointer Patterns (_3rd_ Pattern) – Study key problem-solving patterns.
-   - <https://youtube.com/playlist?list=PLxvbXPxg6ydxTJ99R8T-7DwPs2W1DuTVn>
+1. Basic Math for DSA
+2. Strings in python
 
-7. Linked List All – Dive deep into linked lists.
-   - Pattern: Fast and Slow Pointer
-   - In-Place Reversal of a Linked List
-   - Solve any Linked list.
-8. Stack – Learn about stacks and their applications. (x3)
-9. Queue – Explore queues and their uses. & problem solving (x3)
+Data Structure
+i. Heaps
+ii. Linked List – Dive deep into linked lists.
+iii. Stack – Learn about stacks and their applications. (x3)
+iv. Queue – Explore queues and their uses. & problem solving (x3)
 ```
 
 ## Others

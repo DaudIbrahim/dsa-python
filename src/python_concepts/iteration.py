@@ -1,10 +1,7 @@
 # flake8: noqa
 
 # memory hook for loops in python - while-forIn-range
-
-from typing import List
-
-my_list: List[int] = [10, 20, 30]
+my_list: list[int] = [10, 20, 30]
 
 # while
 i = 0
