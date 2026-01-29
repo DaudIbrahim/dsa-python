@@ -39,9 +39,9 @@
 
 1. Binary Search (Mid Point) ✅
 2. HashMaps ✅
-3. Merge Sort
+3. Merge Sort ✅
+4. Two Pointers
 
-- Two Pointers
 - Sliding Window
 - Merge Intervals
 - Prefix Sum Array and Range Sum Queries
