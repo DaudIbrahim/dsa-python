@@ -7,3 +7,9 @@
 - [Binary search is an efficient algorithm for finding an item from a sorted list of items. _ThePrimeagen_](https://frontendmasters.com/courses/algorithms/binary-search-algorithm/)
 
 - [Binary Search Animated](https://www.youtube.com/watch?v=eVuPCG5eIr4&pp=ygUbYmluYXJ5IHNlYXJjaCB2aXN1YWxpc2F0aW9u0gcJCYcKAYcqIYzv)
+
+## Problem Set
+
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search)
+
+- [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)

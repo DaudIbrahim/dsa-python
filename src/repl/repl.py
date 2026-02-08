@@ -1,2 +1,6 @@
+# start is inclusive
+# stop is exclusive
 
-print("REPL")
+
+for i in range(10, 10):
+    print(i)
