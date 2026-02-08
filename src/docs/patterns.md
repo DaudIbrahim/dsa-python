@@ -26,16 +26,16 @@
 6. In-place Reversal of Linked List
    - Data Structure: Linked Lists.
 
-7. Two Heaps
-   - Data Structure: Heaps (Min-Heap and Max-Heap).
+7. Two **Heaps**
+   - Data Structure: **Heaps** (Min-Heap and Max-Heap).
    - Heap Data Structures
 
 8. K-way Merge
-   - Data Structure: Priority Queues (implemented using Heaps).
+   - Data Structure: Priority Queues (implemented using **Heaps**).
    - Priority Queues are typically implemented using Heap Data Structures
 
 9. Top K Elements
-   - Data Structure: Priority Queues (implemented using Heaps).
+   - Data Structure: Priority Queues (implemented using **Heaps**).
    - Priority Queues are typically implemented using Heap Data Structures
 
 10. Modified Binary Search
