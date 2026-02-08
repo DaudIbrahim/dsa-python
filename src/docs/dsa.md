@@ -13,8 +13,6 @@ _The goal of programming is to create solutions, not to type on a keyboard. Gene
 
 ## PSET
 
-Problem Set
-
 ### Nature of the Scientific Process
 
 Problem sets are great ways to provide students with the practice necessary to gain mastery of new skills that you have introduced in class. Problem sets are also great at reflecting the nature of the [scientific process](https://bokcenter.harvard.edu/problem-sets "Harvard University"), which so often involves problem solving, and in so doing help reinforce the explanatory power of your discipline.
