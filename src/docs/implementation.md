@@ -2,9 +2,9 @@
 
 ## Udemy Course Parts
 
-- <https://github.com/DaudIbrahim/dsa-js/blob/main/docs/python-data-structures-and-algorithms-bootcamp.md>
+- <https://github.com/DaudIbrahim/dsa-js>
 
-- <https://www.udemy.com/course/data-structures-and-algorithms-bootcamp-in-python/learn/>
+- <https://www.udemy.com/course/data-structures-and-algorithms-bootcamp-in-python/>
 
 ### Part_1
 

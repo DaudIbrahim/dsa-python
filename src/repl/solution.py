@@ -2,50 +2,32 @@ from typing import List
 
 
 class Solution:
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-        """
-        Do not return anything, modify nums1 in-place instead.
-        """
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
-        idx1 = m - 1
-        idx2 = n - 1
-        insert_index = (m + n) - 1
+        left_index = 0
+        right_index = len(numbers) - 1
 
-        while (idx1 >= 0 and idx2 >= 0):
+        while (left_index != right_index):
+            sum = numbers[left_index] + numbers[right_index]
 
-            if (nums2[idx2] >= nums1[idx1]):
-                nums1[insert_index] = nums2[idx2]
-                insert_index -= 1
-                idx2 -= 1
+            if (target == sum):
+                return [left_index + 1, right_index + 1]
+            elif (target > sum):
+                left_index += 1
             else:
-                nums1[insert_index] = nums1[idx1]
-                insert_index -= 1
-                idx1 -= 1
+                right_index -= 1
 
-        if (idx2 >= 0):
-            for i in range(idx2, -1, -1):
-                nums1[insert_index] = nums2[i]
-                insert_index -= 1
+        return []
 
 
 # init solution
 sol = Solution()
 
+# 2.
+# Input: nums = [2,7,11,15], target = 9
+# Output: [0,1]
+# Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-# 2. Define real arguments
-
-
-# Input: nums1 = [1,2,3,0,0,0], idx1 = 3, nums2 = [2,5,6], idx2 = 3
-# Output: [1,2,2,3,5,6]
-# Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
-# The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
-
-nums1 = [1, 2, 3, 0, 0, 0]
-idx1 = 3
-nums2 = [2, 5, 6]
-idx2 = 3
-
-# 3. Run and Print
+# 3. Run
 sol = Solution()
-sol.merge(nums1, idx1, nums2, idx2)
-print(nums1)
+print(sol.twoSum([2, 3, 4], 6))
