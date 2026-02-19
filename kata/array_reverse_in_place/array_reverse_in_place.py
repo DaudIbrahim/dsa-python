@@ -7,15 +7,21 @@ def reverse_in_place_two_pointers(nums: list[int]) -> list[int]:
     """
     Reverse an array in place using two pointers approach.
 
-    Args:
-        nums: A list of integers to reverse
+    left starts at 0        -> counting world, inclusive lower bound
+    right starts at len(nums) -> counting world, exclusive upper bound
+    this is the half-open interval [left, right)
 
-    Returns:
-        The same list reversed (modified in place)
+    at the moment of swapping, we translate into index world:
+        nums[left] and nums[right - 1]
+    right - 1 is the translation from counting world to index world.
+
+    the two pointers converge toward the center, swapping pairs.
+    when they meet, every pair has been swapped — the array is reversed.
 
     Time Complexity: O(n)
     Space Complexity: O(1)
     """
+
     left = 0
     right = len(nums)
 

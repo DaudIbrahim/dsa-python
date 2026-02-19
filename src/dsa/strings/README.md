@@ -1,5 +1,12 @@
 # Strings in Python
 
+## Problem Set (Strings)
+
+- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+- [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
+  - [Array reverse in place](../../../kata/array_reverse_in_place/array_reverse_in_place.py)
+
 ## The Big Similarity: Python Strings Are Also Immutable
 
 Just like JavaScript, Python strings are immutable. Once created, you cannot modify a string in place. This is the single most important thing to internalize, because it shapes _every_ decision you make when manipulating strings in Python.
