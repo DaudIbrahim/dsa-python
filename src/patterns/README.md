@@ -20,7 +20,7 @@
 - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
   - Running from both ends of an array, binary search, range of sorted numbers
 
-- TODO: <https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2002:%20Two%20Pointers.md#remove-duplicates-easy>
+- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
   - Merge array in place from end of 2 arrays

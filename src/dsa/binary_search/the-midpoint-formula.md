@@ -810,7 +810,7 @@ And often, there is.
 
 4. Java Bug Database: [Bug ID 5045582](http://bugs.java.com/bugdatabase/view_bug.do?bug_id=5045582)
 
-5. ThePrimeagen's teaching on offset-based thinking in algorithms and data structures.
+5. ThePrimeagen's teaching on offset-based thinking in [algorithms and data structures](https://frontendmasters.com/courses/algorithms/binary-search-algorithm/).
 
 ---
 
