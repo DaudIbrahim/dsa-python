@@ -1,5 +1,6 @@
 # flake8: noqa
-# https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
+
+# Source: https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
 
 # Python does not have traditional C-style for loops.
 # We do have something that we call a for loop in Python, but it works like a foreach loop.
@@ -88,4 +89,4 @@ for n in cubesX:
 
 # Iterators are everywhere - Example - enumerate, zip, map, filter
 
-# TODO: implement iterator in python; using yield | To be Continued...
+# TODO: iterator implementation in python; using yield | To be Continued...

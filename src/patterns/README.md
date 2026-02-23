@@ -4,9 +4,9 @@
 
 [Several Coding Patterns for Solving Data Structures and Algorithms Problems during Interviews _Chanda-Abdul_](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews?tab=readme-ov-file#several-coding-patterns-for-solving-data-structures-and-algorithms-problems-during-interviews)
 
-## Two Pointers
+## 1. Two Pointers
 
-[Pattern 2: Two Pointer | _Chanda-Abdul_](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2002:%20Two%20Pointers.md)
+[Two Pointer | _Chanda-Abdul_](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2002:%20Two%20Pointers.md)
 
 [Two Pointers _leetcode discuss_](https://leetcode.com/discuss/study-guide/1688903/Solved-all-two-pointers-problems-in-100-days)
 
@@ -24,3 +24,13 @@
 
 - [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)
   - Merge array in place from end of 2 arrays
+
+## 2. Sliding Window
+
+- [Sliding Window Technique - Algorithmic Mental Models - _Ryan Schachte_](https://youtu.be/MK-NZ4hN7rs)
+
+- [Sliding Window - _Kantan Coding_](https://youtube.com/playlist?list=PL7g1jYj15RUOjoeZAJsWjwV8XUo9r0hwc&si=aWG6Yg5d8A0GgXRl)
+
+- [Sliding Window | _Chanda-Abdul_](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2001%20%3A%20Sliding%20Window.md#pattern-1-sliding-window)
+
+<!--  -->

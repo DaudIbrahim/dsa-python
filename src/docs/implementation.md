@@ -40,14 +40,14 @@
 1. Binary Search (Mid Point) ✅
 2. HashMaps ✅
 3. Merge Sort ✅
+4. Strings in python ✅
 
 - _Two Pointers_
-
 - Sliding Window
-- Merge Intervals
 - Prefix Sum Array and Range Sum Queries
+
+- Merge Intervals
 - Basic Math for DSA
-- Strings in python
 
 ```txt
 _Merge Quick Bucket_ (Merge, Quick & Bucket Sort)

@@ -7,6 +7,11 @@ Keep these **Python reminders in mind**:
 - `not` instead of `!`
 - Use `dict.get(char, 0)` for counting frequencies
 
+```python
+max_val = float("-inf")
+min_val = float("inf")
+```
+
 ## Looping
 
 ### while

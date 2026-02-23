@@ -1,31 +1,27 @@
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
 
-        arr = []
+    def findMaxAverage(self, nums: list[int], k: int) -> float:
 
-        for character in s:
-            if (character.isalnum()):
-                arr.append(character.lower())
+        current_sum = 0
+        window_avg = float("-inf")
 
-        filter_str = "".join(arr)
+        for right in range(0, len(nums)):
 
-        # two pointers
-        left = 0
-        right = len(filter_str)
+            current_sum += nums[right]
 
-        while (left < right):
+            if (right >= (k - 1)):
+                current_avg = (current_sum / k)
+                window_avg = max(current_avg, window_avg)
+                current_sum -= nums[right - (k - 1)]
 
-            if (filter_str[left] != filter_str[right - 1]):
-                return False
-
-            left += 1
-            right -= 1
-
-        return True
+        return window_avg
 
 
 # init solution
 sol = Solution()
 
 # run
-print(sol.isPalindrome("0P"))
+nums = [3, 3, 4, 3, 0]
+k = 3
+# Output: 3.33333
+print("\n", sol.findMaxAverage(nums, k))

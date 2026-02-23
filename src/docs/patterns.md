@@ -15,7 +15,6 @@
 
 3. Sliding Window
    - Data Structure: Arrays, Strings, or Deques.
-   - [Kantan Coding](https://youtube.com/playlist?list=PLxvbXPxg6ydxTJ99R8T-7DwPs2W1DuTVn)
 
 4. Merge Intervals
    - Data Structure: Arrays (used for intervals), Sorting.
@@ -94,5 +93,6 @@
 ## Extras
 
 - [Prefix Sum Array and Range Sum Queries](https://youtu.be/xbYr9JOC2Lk?si=imDCPi26TlxIPjKF)
+  - <https://youtu.be/N_AgTyMHgtw?si=wVQf51D_ht-tGpkU>
 
 - 0/1 Knapsack Pattern - 0/1 Knapsack problem | `Course Module: Dynamic Programming`
