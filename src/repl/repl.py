@@ -4,5 +4,5 @@
 # length -> working with counts
 # index -> working with indices
 
-for i in range(5, -1, -1):
+for i in range(4, -1, -1):
     print(i)

@@ -33,4 +33,20 @@
 
 - [Sliding Window | _Chanda-Abdul_](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2001%20%3A%20Sliding%20Window.md#pattern-1-sliding-window)
 
-<!--  -->
+### Problem Set (Sliding Window)
+
+- [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/description/)
+  - Fixed Window Size
+
+- [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
+  - Dynamic Window Size
+
+<!-- Sliding Window Continue from https://claude.ai/chat/23d10ece-31a6-4ab4-a35a-17d359690bbc -->
+
+## 3. Prefix Sum Array and Range Sum Queries
+
+[Prefix Sum Array and Range Sum Queries - _Profound Academy_](https://youtu.be/xbYr9JOC2Lk?si=imDCPi26TlxIPjKF)
+
+### Problem Set (Prefix Sum Array and Range Sum Queries)
+
+- [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)

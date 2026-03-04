@@ -6,14 +6,14 @@
 
 [_List of Coding Patterns_](https://github.com/DaudIbrahim/knowledge-base-pvt/blob/main/concepts/dsa/dsa-routine-learn.md#coding-patterns)
 
-1. Two Pointers
+1. `Two Pointers`
    - Data Structure: Arrays, Strings, or Linked Lists.
 
 2. Fast and Slow Pointers
    - Data Structure: Linked Lists, Arrays.
    - [NeetCode Linked List Cycle](https://youtu.be/gBTe7lFR3vc)
 
-3. Sliding Window
+3. `Sliding Window`
    - Data Structure: Arrays, Strings, or Deques.
 
 4. Merge Intervals

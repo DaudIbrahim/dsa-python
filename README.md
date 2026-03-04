@@ -6,6 +6,8 @@
 
 [CLRS](https://read.amazon.com/sample/0262033844?clientId=share)
 
+<!-- Use the zero-offset (n+1) prefix array. -->
+
 ## Setup
 
 - [VS Code Portable Mode](https://code.visualstudio.com/docs/editor/portable)
