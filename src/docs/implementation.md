@@ -1,53 +1,35 @@
 # Implementation
 
-## Udemy Course Parts
+## Links
 
 - <https://github.com/DaudIbrahim/dsa-js>
-
+- <https://github.com/DaudIbrahim/dsa-python>
 - <https://www.udemy.com/course/data-structures-and-algorithms-bootcamp-in-python/>
 
-### Part_1
+## Implementation Part: 1
 
-- Arrays
-- Dictionaries
-- Heaps
-- Linked List
-- Stack
-- Queue
-
-### Part_2
-
-- Big O
-- Recursion: TS Chicken Egg Problem
-- Trees
-
-### Part_3
-
-- Sort & Search
-
-### Part_4
-
-- Graphs
-
-### Part_5
-
-- Greedy_Divide_Dynamic_Backtracking
-
-### Part Implementation
-
-#### Part One Implementation
-
-1. Binary Search (Mid Point) ✅
-2. HashMaps ✅
-3. Merge Sort ✅
-4. Strings in python ✅
-
-- _Two Pointers_
+- Arrays (Python Lists)
+- Binary Search (Mid Point)
+- HashMaps
+- Merge Sort
+- Two Pointers
 - Sliding Window
+- Strings in python
 - Prefix Sum Array and Range Sum Queries
 
 - Merge Intervals
-- Basic Math for DSA
+
+### Implementation Part: 2
+
+The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
+
+---
+
+## Others
+
+Greedy_Divide_Dynamic_Backtracking
+
+`#▶ - Data Structure Prep`
 
 ```txt
 _Merge Quick Bucket_ (Merge, Quick & Bucket Sort)
@@ -59,8 +41,6 @@ iii. Stack – Learn about stacks and their applications. (x3)
 iv. Queue – Explore queues and their uses. & problem solving (x3)
 ```
 
-## Others
-
 `#▶ - Preparation`
 
 1. Solve ANY Linked List question using these 3 simple techniques...
@@ -68,3 +48,10 @@ iv. Queue – Explore queues and their uses. & problem solving (x3)
 3. How to solve (almost) any binary tree coding problem
 4. 5 Simple Steps for Solving Dynamic Programming Problems
 5. Recursion in Depth – Recursion, Recursion Problem solving, Recursion pattern & problem solving
+
+`- Basic Math for DSA`
+
+Number theory <https://www.codechef.com/roadmap/data-structures-and-algorithms>
+digital electronics math
+striver
+babbar

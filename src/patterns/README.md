@@ -41,12 +41,16 @@
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
   - Dynamic Window Size
 
-<!-- Sliding Window Continue from https://claude.ai/chat/23d10ece-31a6-4ab4-a35a-17d359690bbc -->
+Sliding Window Continue problem set from <https://claude.ai/chat/23d10ece-31a6-4ab4-a35a-17d359690bbc>
 
 ## 3. Prefix Sum Array and Range Sum Queries
+
+[Prefix Sum Array and Range Sum Queries - _My Docs_](../dsa/prefix_sum/README.md)
 
 [Prefix Sum Array and Range Sum Queries - _Profound Academy_](https://youtu.be/xbYr9JOC2Lk?si=imDCPi26TlxIPjKF)
 
 ### Problem Set (Prefix Sum Array and Range Sum Queries)
 
 - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
+
+## 4. Merge Intervals

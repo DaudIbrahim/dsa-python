@@ -38,8 +38,6 @@ In essence, inductive chain learning leverages the cumulative nature of knowledg
 
 [Python Naming Convention](https://github.com/naming-convention/naming-convention-guides/blob/master/python/README.md)
 
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-
 ## Other
 
 The Real Skill You're Missing
@@ -52,3 +50,5 @@ python3 kata.py binary_search
 [Data Structure & Algorithms Playlist by Witty Humour](https://youtube.com/playlist?list=PLxvbXPxg6ydxE3bOWlrAaMsRiY-kVNVGS&si=ObedDEDKTXoJalgE)
 
 ---
+
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
