@@ -92,7 +92,6 @@
 
 ## Extras
 
-- [Prefix Sum Array and Range Sum Queries](https://youtu.be/xbYr9JOC2Lk?si=imDCPi26TlxIPjKF)
-  - <https://youtu.be/N_AgTyMHgtw?si=wVQf51D_ht-tGpkU>
+- `Prefix Sum Array and Range Sum Queries`
 
 - 0/1 Knapsack Pattern - 0/1 Knapsack problem | `Course Module: Dynamic Programming`
