@@ -26,12 +26,12 @@ class SinglyLinkedList:
     def _get_node_by_index(self, index: int) -> tuple[Node | None, Node | None]:
 
         # out of range
-        if (index < 0 or index > self._size):
+        if (index < 0 or index >= self._size):
             raise IndexError("index out of range")
 
         # head
         if (index == 0):
-            return [None, self.head]
+            return (None, self.head)
 
         # >= 1
         i = 1
@@ -40,13 +40,13 @@ class SinglyLinkedList:
 
         while (node_at_idx):
             if (i == index):
-                return [prev_node, node_at_idx]
+                return (prev_node, node_at_idx)
 
             i += 1
             prev_node = node_at_idx
             node_at_idx = node_at_idx.next
 
-        return [None, None]
+        return (None, None)
 
     # ------------------------------------------------------------------ #
     # Insertion
@@ -69,7 +69,7 @@ class SinglyLinkedList:
             self._size = 1
         else:
             insert_node = Node(value)
-            prev_node, node_at_idx = self._get_node_by_index(0)
+            _, node_at_idx = self._get_node_by_index(0)
             insert_node.next = node_at_idx
             self.head = insert_node
             self._size += 1

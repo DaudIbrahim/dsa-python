@@ -1,5 +1,7 @@
 # Implementation
 
+[Fundamentals _seanprashad_](https://github.com/seanprashad/leetcode-patterns?tab=readme-ov-file#fundamentals)
+
 ## Links
 
 - <https://github.com/DaudIbrahim/dsa-js>
@@ -17,11 +19,22 @@
 - Strings in python
 - Prefix Sum Array and Range Sum Queries
 
+TODO: merge-intervals
+
 - Merge Intervals
 
-### Implementation Part: 2
+---
+
+## Implementation Part: 2
 
 The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
+
+- Singly Linked List
+- Binary Tree Traversal, DFS (post, pre, in, call stack), BFS (queue)---
+
+## Implementation Part: 3
+
+<!--  -->
 
 ---
 
