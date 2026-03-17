@@ -23,10 +23,13 @@ s[0] = "H"  # ❌ TypeError: 'str' object does not support item assignment
 Since strings are immutable, the standard pattern for in-place-style manipulation in Python is: **convert to a list, do your work, then join back**.
 
 ```python
-s = "hello"
-chars = list(s)         # ['h', 'e', 'l', 'l', 'o']
-chars[0] = 'H'          # lists ARE mutable
-result = "".join(chars) # "Hello"
+py_string = "Hello World"
+my_list = list(py_string.split())
+my_string = "".join(my_list)
+
+print(py_string)
+print(my_list)
+print(my_string)
 ```
 
 You'll use `list(s)` + `"".join(...)` constantly in LeetCode problems. Burn this pattern into your memory.
@@ -76,20 +79,20 @@ s[::-1]   # reverses the string — use this for palindrome problems
 ```
 
 ```python
-s = "Hello World"
+py_string = "Hello World"
 
 # Case
-s.lower()             # "hello world" — normalize before comparing
-s.upper()             # "HELLO WORLD"
+py_string.lower()             # "hello world" — normalize before comparing
+py_string.upper()             # "HELLO WORLD"
 
 # Search
-s.find("World")       # 6    — index of first match, -1 if not found
-s.count("l")          # 3    — count occurrences
+py_string.find("World")       # 6    — index of first match, -1 if not found
+py_string.count("l")          # 3    — count occurrences
 
 # Check
-s.startswith("Hello") # True
-s.endswith("World")   # True
-"World" in s          # True — simplest membership check
+py_string.startswith("Hello") # True
+py_string.endswith("World")   # True
+"World" in py_string          # True — simplest membership check
 
 # Classification
 "abc".isalpha()       # True — only letters
@@ -99,17 +102,17 @@ s.endswith("World")   # True
 " ".isspace()         # True
 
 # Transform
-s.strip()             # removes leading & trailing whitespace
-s.replace("l", "r")   # "Herro Worrd"
-s.split(" ")          # ["Hello", "World"]
-s.split()             # same, but handles any whitespace
+py_string.strip()             # removes leading & trailing whitespace
+py_string.replace("l", "r")   # "Herro Worrd"
+py_string.split(" ")          # ["Hello", "World"]
+py_string.split()             # same, but handles any whitespace
 
 # ASCII — essential for problems involving character offsets
 ord('a')              # 97  — char → number
 chr(97)               # 'a' — number → char
 ord('c') - ord('a')   # 2   — maps 'c' to index 2 in a 26-slot array
 
-# Convert
-my_list = list(s)
-my_string = " ".join(my_list)
+# Converting between strings and lists
+my_list = list(py_string)
+my_string = "".join(my_list)
 ```

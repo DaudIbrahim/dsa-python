@@ -23,20 +23,20 @@ TODO: merge-intervals
 
 - Merge Intervals
 
----
-
 ## Implementation Part: 2
 
 The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
 
 - Singly Linked List
-- Binary Tree Traversal, DFS (post, pre, in, call stack), BFS (queue)---
+- Binary Tree Traversal, DFS (post, pre, in, call stack), BFS (queue)
+
+```bash
+npx jest BTPostOrder BTPreOrder BTInOrder CompareBinaryTrees BTBFS
+```
 
 ## Implementation Part: 3
 
-<!--  -->
-
----
+3
 
 ## Others
 
