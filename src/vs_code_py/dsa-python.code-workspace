@@ -9,12 +9,12 @@
     "[python]": {
       "editor.defaultFormatter": "charliermarsh.ruff",
     },
-    "editor.defaultFormatter": "prettier.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 
     "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX"],
 
     // theme
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Dark Modern",
     "workbench.iconTheme": "material-icon-theme",
 
     // Editor
