@@ -54,3 +54,10 @@ Sliding Window Continue problem set from <https://claude.ai/chat/23d10ece-31a6-4
 - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
 
 ## 4. Merge Intervals
+
+Merge Intervals
+
+## 5. Dynamic Programming
+
+- [198. House Robber](https://leetcode.com/problems/house-robber/description/)
+  - textbook bottom-up DP

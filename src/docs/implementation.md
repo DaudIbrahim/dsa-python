@@ -18,12 +18,21 @@
 - Sliding Window
 - Strings in python
 - Prefix Sum Array and Range Sum Queries
+- ToDo: merge-intervals
+  - Merge Intervals
 
-TODO: merge-intervals
+## Implementation Part: 2 - Greedy & Dynamic
 
-- Merge Intervals
+Greedy & Dynamic
 
-## Implementation Part: 2
+- [Dynamic Programming 1D](https://youtu.be/_i4Yxeh5ceQ)
+- [Dynamic Programming 2D - Full Course - Python](https://youtu.be/qMky6D6YtXU?si=g2fYElXK3Mfs3csa)
+
+## Implementation Part: 3 - Recursion & Backtracking
+
+Recursion & Backtracking
+
+## Implementation Part: 4
 
 The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
 
@@ -33,10 +42,6 @@ The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
 ```bash
 npx jest BTPostOrder BTPreOrder BTInOrder CompareBinaryTrees BTBFS
 ```
-
-## Implementation Part: 3
-
-3
 
 ## Others
 
