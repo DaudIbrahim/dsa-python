@@ -6,6 +6,7 @@ class Solution:
             return nums[0]
 
         # construct
+        # dp[i] = max money robbing from houses 0..i
         dp = []
         for i in range(0, len(nums)):
             dp.append(0)

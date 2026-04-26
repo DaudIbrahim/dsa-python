@@ -2,7 +2,13 @@
 
 1. Mathematical Induction
 2. Recursive Leap of faith - Towers of Hanoi
-3. Fibonacci Sequenct - Rcursion & Memoization
+3. Fibonacci Sequence - Rcursion & Memoization
+
+## My Recursion Implemented go-to examples
+
+1. Mathematical concept of Recursion and Induction
+2. Tree traversal pre, post and in order
+3. Fibonacci Sequence
 
 ## Recursion Concepts
 
