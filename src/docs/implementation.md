@@ -28,11 +28,22 @@ Greedy & Dynamic
 - [Dynamic Programming 1D](https://youtu.be/_i4Yxeh5ceQ)
 - [Dynamic Programming 2D - Full Course - Python](https://youtu.be/qMky6D6YtXU?si=g2fYElXK3Mfs3csa)
 
-## Implementation Part: 3 - Recursion & Backtracking
+## Implementation Part: 2.5 | Data Structure & Algorithms | 13 May 2026
 
-Recursion & Backtracking
+TODO : Continue : [Learning greedy and dynamic programming - Claude](https://claude.ai/chat/41b41e6d-4772-4419-888c-d20a5ab62918)
 
-## Implementation Part: 4
+- 1D Dynamic Programming
+- Greedy approach
+- 2D Arrays (2D nested arrays rotation)
+
+- [Udemy Course](https://i.ibb.co.com/C5xx952q/www-udemy-com-course-data-structures-and-algorithms-bootcamp-in-python-1.png)
+  - [Linked List Learning Path](https://chatgpt.com/s/t_6a03cf82c88c819189d102ffc2bda733)
+- Recursion
+- Backtracking
+- Dynamic Programming
+- Greedy
+
+## TechCare Prep
 
 The Last Algorithms Course You'll Need from frontendmasters by ThePrimeagen
 
@@ -67,9 +78,10 @@ iv. Queue – Explore queues and their uses. & problem solving (x3)
 4. 5 Simple Steps for Solving Dynamic Programming Problems
 5. Recursion in Depth – Recursion, Recursion Problem solving, Recursion pattern & problem solving
 
-`- Basic Math for DSA`
+### Basic Math for DSA
 
 Number theory <https://www.codechef.com/roadmap/data-structures-and-algorithms>
 digital electronics math
-striver
-babbar
+
+- [Lecture 24: Basic Maths for DSA || Sieve || Modular Arithmetics || Euclid’s Algorithm | CodeHelp - by Babbar](https://youtu.be/KdePjukNs98?si=UTw8W6O8S3Sq8hH8)
+- [Basic Maths for DSA | Euclidean Algorithm | Strivers A2Z DSA Course](https://youtu.be/1xNbjMdbjug?si=97A41PG6T2sHPmWg)
